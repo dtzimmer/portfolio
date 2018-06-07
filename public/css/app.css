@@ -1,0 +1,146 @@
+html {
+    padding: 20px;
+    background: #ddd;
+}
+
+body {
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 30px;
+    font-family: Arial;
+    }
+
+header, 
+footer {
+    text-align: center;
+    font-family: fantasy;
+    padding: 20px;
+    background-color: white;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+h3 {
+    padding: 10px;
+    color:white;
+}
+
+p {
+    padding:10px;
+    color: whitesmoke;
+}
+
+.caption {
+    color: whitesmoke;
+    background-color: grey;
+}
+
+.image {
+    width: 70%;
+    height: auto;
+    margin: 10%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+form {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+article {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+
+    .navbar {
+        z-index: 99999;
+       overflow: hidden;
+       background-color: #333;
+       border-radius: 10px;
+       position: fixed; /* Set the navbar to fixed position */
+       top: 0; /* Position the navbar at the top of the page */
+       width: 50%; /* Full width */
+   }
+   
+   .navbar a {
+       float: left;
+       display: block;
+       color: #f2f2f2;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+   
+   .navbar a:hover {
+       background: #ddd;
+       color: black;
+   }
+   
+   .main {
+       margin-top: 30px;
+   }
+ 
+label {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+   .fa {
+       padding: 20px;
+       font-size: 30px;
+       width: 50px;
+       text-align: center;
+       text-decoration: none;
+       border-radius: 50%;
+   }
+   
+
+   .fa-facebook {
+       background: #3B5998;
+       color: white;
+   }
+   
+   .fa-twitter {
+       background: #55ACEE;
+       color: white;
+   }
+   .fa-google {
+     background: #dd4b39;
+     color: white;
+   }
+   .fa-instagram {
+     background: #125688;
+     color: white;
+   }
+   .fa-youtube {
+     background: #bb0000;
+     color: white;
+   }
+   .fa-linkedin {
+     background: #007bb5;
+     color: white;
+   }
+   .fa-pinterest {
+     background: #cb2027;
+     color: white;
+   }
+   

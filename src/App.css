@@ -1,0 +1,126 @@
+html {
+  padding: 20px;
+  background: #ddd;
+}
+
+body {
+  background-color: darkgrey;
+  margin: 0px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+header,
+footer {
+  text-align: center;
+  font-family: fantasy;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+h3 {
+  padding: 10px;
+  color:white;
+}
+
+p {
+  padding:10px;
+  color: whitesmoke;
+}
+
+.image {
+  width: 70%;
+  height: auto;
+  margin: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    color: white;
+    text-align: left;
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: silver;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid white;
+  background: black;
+}
+
+form {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+article {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+
+
+.navbar {
+  z-index: 99999;
+  overflow: hidden;
+  background-color: #55ACEE;
+  border-radius: 10px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 50%; /* Full width */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: lightgrey;
+    color: white;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+label {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
