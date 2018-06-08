@@ -6,6 +6,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
+                <body>
                 <head>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                 </head>
@@ -47,6 +48,7 @@ class Contact extends Component {
                     <button><a href="https://www.linkedin.com/in/daniel-zimmerman-56959780/" class="fa fa-linkedin" target="blank"></a></button>
                     <button><a href="https://github.com/dtzimmer" class="fa fa-github" target="blank"></a></button>
                 </section>
+                </body>
                 </body>
             </div>
         )

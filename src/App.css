@@ -32,7 +32,23 @@ p {
 .image {
   width: 70%;
   height: auto;
-  margin: 10%;
+  margin: 20px;
+}
+
+.imagehomepage {
+    width: 100%;
+    height: auto;
+    margin: 10%;
+}
+
+.imagenamebadge {
+    width: 40vw;
+    height: auto;
+}
+
+.resizedtextbox {
+    width: 50%;
+    border: 1px solid white;
 }
 
 a {
@@ -40,7 +56,7 @@ a {
     color: black;
 }
 
-li {
+li, ul {
     color: white;
     text-align: left;
 }
@@ -60,12 +76,12 @@ button {
 section {
   display: flex;
   justify-content: space-around;
-  flex-wrap: nowrap;
   align-items: center;
   padding: 20px;
   border: 1px solid white;
   background: black;
 }
+
 
 form {
   width: 100%;
@@ -89,9 +105,9 @@ article {
   overflow: hidden;
   background-color: #55ACEE;
   border-radius: 10px;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 50%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 75%;
 }
 
 .navbar a {
@@ -123,4 +139,36 @@ label {
     width: 30px;
     text-align: center;
     text-decoration: none;
+}
+
+
+.nbmain {
+    height: auto;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    background: white;
+}
+
+.nbsection {
+    text-align: center;
+    background: red;
+    border: 1px solid black;
+    color: white;
+    width: 260px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nbarticle {
+    text-align: center;
+    background: red;
+    color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
 }

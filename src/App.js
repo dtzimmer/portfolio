@@ -4,6 +4,7 @@ import HomePage from './HomePage'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import WorkExperience from './WorkExperience'
+import NameBadgeComp from './NameBadgeComp';
 import {
   BrowserRouter,
   Switch,
@@ -17,6 +18,7 @@ export default () => (
             <Route path ="/portfolio" component ={Portfolio}/>
             <Route path ="/contact" component = {Contact}/>
             <Route path ="/workexperience" component = {WorkExperience}/>
+            <Route path ="/namebadgecomp" component = {NameBadgeComp}/>
           </Switch>
         </BrowserRouter>
 )
