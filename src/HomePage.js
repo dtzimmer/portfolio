@@ -7,6 +7,9 @@ class HomePage extends Component {
     render() {
         return (
             <div>
+                <head>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+                </head>
 
                 <body >
 
@@ -30,9 +33,9 @@ class HomePage extends Component {
                     </div>
 
                     <div>
-                        <img
+                        <a href="https://heliotraining.com/" target="blank"><img
                             src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/3954/s300/hel-stackedlogo-onwhite.png"
-                            alt="Helio Logo" className="imagehomepage"/>
+                            alt="Helio Logo" className="imagehelio"/></a>
                     </div>
 
 
@@ -69,6 +72,14 @@ class HomePage extends Component {
                         </ul>
                     </div>
                 </section>
+
+                <footer>
+                    <section className="footericons">
+                    <button><a href="https://www.linkedin.com/in/daniel-zimmerman-56959780/" className="fa fa-linkedin"
+                               target="blank"></a></button>
+                    <button><a href="https://github.com/dtzimmer" className="fa fa-github" target="blank"></a></button>
+                    </section>
+                </footer>
 
                 </body>
 

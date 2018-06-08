@@ -1,22 +1,26 @@
-html {
-  padding: 20px;
-  background: #ddd;
-}
+
 
 body {
   background-color: darkgrey;
-  margin: 0px;
   border-radius: 15px;
-  padding: 20px;
+  padding-top: 35px;
 }
 
-header,
-footer {
+header {
   text-align: center;
   font-family: fantasy;
-  padding: 5px;
-  background-color: white;
-  border-radius: 20px;
+  padding: 10px;
+  background: white;
+}
+
+footer {
+    text-align: center;
+    font-family: fantasy;
+    background: white;
+}
+
+h1,h2 {
+    color: black;
 }
 
 h3 {
@@ -33,17 +37,29 @@ p {
   width: 70%;
   height: auto;
   margin: 20px;
+  box-shadow: 10px 10px 5px black;
 }
 
 .imagehomepage {
     width: 100%;
     height: auto;
     margin: 10%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px black;
+}
+
+.imagehelio {
+    background: black;
+    width: 100%;
+    height: auto;
+    margin: 10%;
+    border: 1px solid black;
 }
 
 .imagenamebadge {
     width: 40vw;
     height: auto;
+    box-shadow: 10px 10px 5px black;
 }
 
 .resizedtextbox {
@@ -55,6 +71,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 
 li, ul {
     color: white;
@@ -68,9 +85,11 @@ button {
     border-radius: 15px;
     color: black;
     padding: 5px;
+    margin: 10px;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
+    box-shadow: 5px 5px 5px black;
 }
 
 section {
@@ -79,7 +98,7 @@ section {
   align-items: center;
   padding: 20px;
   border: 1px solid white;
-  background: black;
+  background: #575557;
 }
 
 
@@ -104,10 +123,11 @@ article {
   z-index: 99999;
   overflow: hidden;
   background-color: #55ACEE;
-  border-radius: 10px;
+  border-radius: 5px;
   position: fixed;
   top: 0;
-  width: 75%;
+  width: 100%;
+  box-shadow: 4px 4px 5px black;
 }
 
 .navbar a {
@@ -124,9 +144,11 @@ article {
     color: white;
 }
 
-.main {
-  margin-top: 30px;
+.footericons {
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 label {
   color: white;
