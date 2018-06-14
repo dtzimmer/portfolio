@@ -1,4 +1,7 @@
-
+figcaption {
+    color: white;
+    padding: 10px;
+}
 
 body {
   background-color: darkgrey;
@@ -58,6 +61,12 @@ p {
 
 .imagenamebadge {
     width: 40vw;
+    height: auto;
+    box-shadow: 10px 10px 5px black;
+}
+
+.imagewebpage{
+    width: 50vw;
     height: auto;
     box-shadow: 10px 10px 5px black;
 }

@@ -46,7 +46,7 @@ class WorkExperience extends Component {
                 <section>
                     <h3> Download My Resume </h3>
                     <div>
-                        <button><a href="https://drive.google.com/file/d/1N3Eqaa8TQC2ADVDiFWakRxd7bG_1EY9w/view?usp=sharing" target="blank">Resume</a></button>
+                        <button><a href="https://drive.google.com/file/d/1472uxfozFvYiLNi3-fFrpJmPfeC5xTzB/view?usp=sharing" target="blank">Resume</a></button>
                     </div>
                 </section>
 
