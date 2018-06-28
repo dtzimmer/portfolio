@@ -1,12 +1,11 @@
 figcaption {
-    color: white;
+    color: black;
     padding: 10px;
 }
 
 body {
-  background-color: darkgrey;
-  border-radius: 15px;
-  padding-top: 35px;
+  background-color: white;
+  padding-top: 50px;
 }
 
 header {
@@ -17,9 +16,12 @@ header {
 }
 
 footer {
+    background: lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
     text-align: center;
     font-family: fantasy;
-    background: white;
 }
 
 h1,h2 {
@@ -28,12 +30,22 @@ h1,h2 {
 
 h3 {
   padding: 10px;
-  color:white;
+  color: black;
 }
 
 p {
   padding:10px;
-  color: whitesmoke;
+  color: black;
+}
+
+button {
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .image {
@@ -44,37 +56,31 @@ p {
 }
 
 .imagehomepage {
-    width: 100%;
+    width: 30vw;
     height: auto;
     margin: 10%;
-    border: 1px solid black;
     box-shadow: 10px 10px 5px black;
 }
 
 .imagehelio {
     background: black;
-    width: 100%;
+    width: 30vw;
     height: auto;
     margin: 10%;
-    border: 1px solid black;
 }
 
 .imagenamebadge {
-    width: 40vw;
+    width: 30vw;
     height: auto;
     box-shadow: 10px 10px 5px black;
 }
 
 .imagewebpage{
-    width: 50vw;
+    width: 30vw;
     height: auto;
     box-shadow: 10px 10px 5px black;
 }
 
-.resizedtextbox {
-    width: 50%;
-    border: 1px solid white;
-}
 
 a {
     text-decoration: none;
@@ -83,36 +89,22 @@ a {
 
 
 li, ul {
-    color: white;
-    text-align: left;
-}
-
-button {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: silver;
-    border-radius: 15px;
     color: black;
-    padding: 5px;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    box-shadow: 5px 5px 5px black;
+    text-align: left;
 }
 
 section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
-  border: 1px solid white;
-  background: #575557;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  background: whitesmoke;
 }
 
 
 form {
-  width: 100%;
+  width: 50%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -124,52 +116,34 @@ form {
 article {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: whitesmoke;
+  color: black;
 }
 
 
 .navbar {
-  z-index: 99999;
-  overflow: hidden;
-  background-color: #55ACEE;
-  border-radius: 5px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  box-shadow: 4px 4px 5px black;
+    display: flex;
+    justify-content: left;
+    z-index: 99999;
+    overflow: hidden;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    box-shadow: 4px 4px 5px black;
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.navbar a:hover {
-    background: lightgrey;
-    color: white;
-}
-
-.footericons {
-    display: flex;
-    justify-content: flex-end;
-}
-
 
 label {
-  color: white;
+  color: black;
   font-family: 'Times New Roman', Times, serif;
-}
-
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
 }
 
 
@@ -202,4 +176,18 @@ label {
     width: 300px;
     height: auto;
     border-radius: 20px;
+}
+
+.backgroundimagesections {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;
+    background-size: cover;
+    height: 30vh;
+    padding-top: 30px;
+}
+
+.backgroundfooter {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;
+    background-size: cover;
+    height: 20vh;
+    padding-top: 30px;
 }

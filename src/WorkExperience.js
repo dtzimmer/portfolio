@@ -1,24 +1,19 @@
-import React, {Component} from 'react'
+import React, {Component, Fragment} from 'react'
 import './App.css';
-import { Link } from 'react-router-dom'
+import Header from "./Header";
+import Footer from "./Footer";
 
 class WorkExperience extends Component {
     render() {
         return (
-            <div>
+            <Fragment>
                 <body>
-                <div className="navbar">
-                    <Link to ="/"><a href="">Home</a></Link>
-                    <Link to ="Portfolio"><a href="">Portfolio</a></Link>
-                    <Link to ="Contact"><a href="">Contact Me</a></Link>
-                </div>
+                <Header/>
 
-                <header className="main">
+                <header className="backgroundimagesections">
                     <h1>Daniel Zimmerman</h1>
                     <h2>Education and Work Experience</h2>
                 </header>
-
-
 
                 <section>
 
@@ -46,16 +41,45 @@ class WorkExperience extends Component {
                 <section>
                     <h3> Download My Resume </h3>
                     <div>
-                        <button><a href="https://drive.google.com/file/d/1472uxfozFvYiLNi3-fFrpJmPfeC5xTzB/view?usp=sharing" target="blank">Resume</a></button>
+                        <button><a href="https://drive.google.com/file/d/13x4AktwydbAwrG2u-UwR1OyUTK1B_Es2/view?usp=sharing" target="blank">Resume</a></button>
                     </div>
                 </section>
-
-                <section>
-                        <img src="https://lh3.googleusercontent.com/WLQ64qQMrZl9wEbhPy_0WPCFWeA7b1xI0SzL7pURLjhS9rxNH8IKdz-Hk0_yispl9rKupro7-dXIlZpvQqh_O6ijpuPcs7OrMYI8t5GbYfQ_OYfORD7n-E8uwlqbK4ztawiCVHNLib7Ksxca065oDxbM7d1ammhRfcgwZddmEPf4cXYVHKI8EZSFXJXsNMy-j75UJLD7_kRSd2Ms1BebMFrdC7-GChF04yOo9AbgEfCz4IlBwHCAyS-3-8O5RunDUSzVDQC9TC57EEljf2CaKfdUHWkW4JHlJtpPniSdKw-7Mjcl4d1yPqSHTLXrHiNzFc_9r8HAVklDWICn5Lj3IWtgjCAtbvTv-_labs__Xth4u4Ezs8o3XeNBNpx-LAnlB4LelGwCn2uy5bfSL7npMBNCK3npUrAXM8EsQl-AJrTFHNsu30lMZIiJLocSDsGInyvmO2hrWkG2YD7ZO2x2xii3q2a_kOEPPk1p3N8cEkw4ilzWKJF7vfaHaTDcU0MSLFD-hpuJlbGkkHwZ2LSDT7u3pyxUravevVouARjl_9S8MZMmQuFBpuHOh0WtkHsDIhL5HrVAL3PxM6WG6I9l_NKNn2jp-h4xZmngXO6pFlxgMysVU0OskkWfbqR38HfvLPeodNeR1Byxw7qO8kCXMKMA5ab7r-R2=w846-h540-no"
-                             alt="Work Experience Time Line" className="imagehomepage"/>
+                <section className="backgroundimagesections">
+                <h3>Work History</h3>
                 </section>
+                <section>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-3">
+                                <div>
+                                    <img src="http://universe.byu.edu/wp-content/uploads/photo-gallery/Modern%20Sailor%20Cougar.jpg" alt="byu" width="100%"/>
+                                <p>Graduated from BYU in 2014 with a BS in Elementary Education</p>
+                                </div>
+                            </div>
+                            <div className="col-sm-3">
+                                <div>
+                                    <img src="https://www.cfisd.net/files/3614/0309/8688/cfisd-logo-final-full-color-condensed-cmyk.jpg" alt="cfisd" width="100%"/>
+                                <p>Moved to Houston, TX and taught 5th grade math/science at Kirk Elementary in CFISD</p>
+                                </div>
+                            </div>
+                            <div className="col-sm-3">
+                                <div>
+                                    <img src="https://hawthornacademy.org/assets/images/footer-logo.png" alt="hawthorn" width="100%"/>
+                                <p>Moved back to Sandy, UT and taught 4th grade at Hawthorn Academy</p>
+                                </div>
+                            </div>
+                            <div className="col-sm-3">
+                                <div>
+                                    <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/3954/s300/hel-stackedlogo-onwhite.png" alt="helio" width="100%"/>
+                                    <p>Attending Helio Training to become proficient in front-end and back-end web development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <Footer/>
                 </body>
-            </div>
+            </Fragment>
         )
     }
 }
