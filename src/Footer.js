@@ -8,7 +8,7 @@ class Footer extends Component {
         return (
             <Fragment>
 
-                <footer className="backgroundfooter">
+                <footer>
                     <button href="https://www.linkedin.com/in/daniel-zimmerman-56959780/" target="blank">LinkedIn</button>
                     <button href="https://github.com/dtzimmer" target="blank">GitHub</button>
                 </footer>

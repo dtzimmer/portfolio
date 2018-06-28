@@ -14,30 +14,33 @@ class WorkExperience extends Component {
                     <h1>Daniel Zimmerman</h1>
                     <h2>Education and Work Experience</h2>
                 </header>
-
                 <section>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <div>
+                                    <h3> Education </h3>
+                                    <ul>
+                                        <li>BS Elementary Education (K-6)</li>
+                                        <li>Cumulative GPA 3.81</li>
+                                        <li>Helio Full Stack Training</li>
 
-               <article>
-                   <h3> Education </h3>
-                   <ul>
-                       <li>BS Elementary Education (K-6)</li>
-                       <li>Cumulative GPA 3.81</li>
-                       <li>Helio Full Stack Training</li>
-
-                   </ul>
-                 </article>
-
-
-                 <article>
-                     <h3> Technology/Design Experience </h3>
-                     <ul>
-                         <li>2-D Design</li>
-                         <li>Google Education</li>
-                         <li>Education Technology</li>
-                     </ul>
-                 </article>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div>
+                                    <h3> Technology/Design Experience </h3>
+                                    <ul>
+                                        <li>2-D Design</li>
+                                        <li>Google Education</li>
+                                        <li>Education Technology</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-
                 <section>
                     <h3> Download My Resume </h3>
                     <div>

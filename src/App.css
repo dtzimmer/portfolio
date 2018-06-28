@@ -16,7 +16,7 @@ header {
 }
 
 footer {
-    background: lightgrey;
+    background: #909090;
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
@@ -24,7 +24,13 @@ footer {
     font-family: fantasy;
 }
 
-h1,h2 {
+h1 {
+   font-size: 7vh;
+    color: black;
+}
+
+h2 {
+    font-size: 5vh;
     color: black;
 }
 

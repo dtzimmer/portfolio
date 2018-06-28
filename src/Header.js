@@ -18,11 +18,11 @@ class Header extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <Link to ="/"><a className="nav-item nav-link active" href="#">Home <span
+                            <Link to ="/"><a className="nav-item nav-link active">Home <span
                                 className="sr-only">(current)</span></a></Link>
-                            <Link to ="Portfolio"><a className="nav-item nav-link" href="#">Portfolio</a></Link>
-                            <Link to ="Contact"><a className="nav-item nav-link" href="#">Contact</a></Link>
-                            <Link to ="WorkExperience"><a className="nav-item nav-link" href="#">Work Experience</a></Link>
+                            <Link to ="Portfolio"><a className="nav-item nav-link">Portfolio</a></Link>
+                            <Link to ="Contact"><a className="nav-item nav-link">Contact</a></Link>
+                            <Link to ="WorkExperience"><a className="nav-item nav-link">Work Experience</a></Link>
                         </div>
                     </div>
                 </nav>
