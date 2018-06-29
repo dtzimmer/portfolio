@@ -9,14 +9,16 @@ class HomePage extends Component {
         return (
             <Fragment>
 
-                <body>
+                <body className="backgroundimagesections">
 
                <Header/>
 
-                <header className="backgroundimagesections">
+
+                <header>
                     <h1>Daniel Zimmerman</h1>
                     <h2>Web Developer</h2>
-                </header>
+                 </header>
+
 
                 <section>
                     <div className="container">
@@ -34,9 +36,9 @@ class HomePage extends Component {
                         </div>
                     </div>
                 </section>
-               <section className="backgroundimagesections">
-                   <h3>About Me</h3>
-               </section>
+               <header>
+                   <h2>About Me</h2>
+               </header>
                <section>
                    <div className="container">
                        <div className="row">

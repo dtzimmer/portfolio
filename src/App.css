@@ -5,33 +5,41 @@ figcaption {
 
 body {
   background-color: white;
-  padding-top: 50px;
+  padding-top: 10vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;
+    background-size: cover;
 }
 
 header {
-  text-align: center;
-  font-family: fantasy;
-  padding: 10px;
-  background: white;
+    text-align: center;
+    font-family: fantasy;
+    padding: 10px;
+    background: transparent;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    border-radius: 5px;
 }
 
 footer {
-    background: #909090;
+    background: whitesmoke;
     padding: 10px;
     display: flex;
     flex-direction: row-reverse;
     text-align: center;
     font-family: fantasy;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    border-radius: 5px;
 }
 
 h1 {
    font-size: 7vh;
-    color: black;
+    color: white;
 }
 
 h2 {
     font-size: 5vh;
-    color: black;
+    color: white;
 }
 
 h3 {
@@ -45,8 +53,8 @@ p {
 }
 
 button {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
     padding: 10px;
@@ -100,12 +108,16 @@ li, ul {
 }
 
 section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid black;
-  background: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background: whitesmoke;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    border-radius: 5px;
 }
 
 
@@ -184,16 +196,10 @@ label {
     border-radius: 20px;
 }
 
-.backgroundimagesections {
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;
-    background-size: cover;
-    height: 30vh;
-    padding-top: 30px;
-}
+/*.backgroundimagesections {*/
+    /*background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;*/
+    /*background-size: cover;*/
+    /*height: 30vh;*/
+    /*padding-top: 30px;*/
+/*}*/
 
-.backgroundfooter {
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;
-    background-size: cover;
-    height: 20vh;
-    padding-top: 30px;
-}

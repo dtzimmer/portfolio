@@ -21,20 +21,25 @@ class WorkExperience extends Component {
                                 <div>
                                     <h3> Education </h3>
                                     <ul>
-                                        <li>BS Elementary Education (K-6)</li>
-                                        <li>Cumulative GPA 3.81</li>
-                                        <li>Helio Full Stack Training</li>
-
+                                        <li>Helio Training - Full Stack Web Development</li>
+                                        <li>BYU - BS Elementary Education (K-6)</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col">
                                 <div>
-                                    <h3> Technology/Design Experience </h3>
+                                    <h3> Technology Training </h3>
                                     <ul>
-                                        <li>2-D Design</li>
-                                        <li>Google Education</li>
-                                        <li>Education Technology</li>
+                                        <li>HTML/CSS</li>
+                                        <li>JavaScript/JSON</li>
+                                        <li>React</li>
+                                        <li>NodeJS</li>
+                                        <li>Express/Hapi</li>
+                                        <li>MongoDB</li>
+                                        <li>GraphQL</li>
+                                        <li>RESTful APIs</li>
+                                        <li>Test-driven Development</li>
+                                        <li>Git</li>
                                     </ul>
                                 </div>
                             </div>
@@ -47,9 +52,9 @@ class WorkExperience extends Component {
                         <button><a href="https://drive.google.com/file/d/13x4AktwydbAwrG2u-UwR1OyUTK1B_Es2/view?usp=sharing" target="blank">Resume</a></button>
                     </div>
                 </section>
-                <section className="backgroundimagesections">
-                <h3>Work History</h3>
-                </section>
+                <header className="backgroundimagesections">
+                <h2>Work History</h2>
+                </header>
                 <section>
                     <div className="container">
                         <div className="row">
