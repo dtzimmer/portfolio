@@ -22,6 +22,7 @@ class Header extends Component {
                                 className="sr-only">(current)</span></a></Link>
                             <Link to ="Portfolio"><a className="nav-item nav-link">Portfolio</a></Link>
                             <Link to ="Contact"><a className="nav-item nav-link">Contact</a></Link>
+                            <Link to ="ListofContacts"><a className="nav-item nav-link">List of Contacts</a></Link>
                             <Link to ="WorkExperience"><a className="nav-item nav-link">Work Experience</a></Link>
                         </div>
                     </div>

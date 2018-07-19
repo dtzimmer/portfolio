@@ -63,10 +63,9 @@ class HomePage extends Component {
                                    <li>NodeJS</li>
                                    <li>Express/Hapi</li>
                                    <li>MongoDB</li>
-                                   <li>MySQL/PostgreSQL</li>
+                                   <li>GraphQL</li>
                                    <li>Test-driven Development</li>
-                                   <li>Git</li>
-                                   <li>NPM</li>
+                                   <li>GitHub</li>
                                    <li>RESTful APIs</li>
                                </ul>
                            </div>

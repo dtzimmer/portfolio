@@ -66,14 +66,14 @@ button {
   width: 70%;
   height: auto;
   margin: 20px;
-  box-shadow: 10px 10px 5px black;
+  box-shadow: 5px 5px 5px black;
 }
 
 .imagehomepage {
     width: 30vw;
     height: auto;
     margin: 10%;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 5px 5px 5px black;
 }
 
 .imagehelio {
@@ -86,13 +86,13 @@ button {
 .imagenamebadge {
     width: 30vw;
     height: auto;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 5px 5px 5px black;
 }
 
 .imagewebpage{
     width: 30vw;
     height: auto;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 5px 5px 5px black;
 }
 
 

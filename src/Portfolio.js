@@ -28,10 +28,10 @@ class Portfolio extends Component {
                             </div>
                             <div className="col">
                                 <div>
-                                    <Link to="NameBadgeComp"><a href=""><img
-                                        src="https://lh3.googleusercontent.com/1Y4A9zrUGi1VrCfvkO5JL7dVD0v2uLX0ACLJi3iVOnO31kqOjUUFtDxjcO9kP6mn-ZMgdntJ0gXlpF5Sgh-EBt0f1DTArFN8E5M0CjalaLOw5yWHm3ho0NbDIz6jU7dnNAgvM2OLd8OOSxJLmhBVi4L2B-Pnm2jt-COVgCYbDVarlDznIjwMAJg0ttXUxIevgn25v9lNV-zVA1afJGmKG-gGCVusShdWZamg6qwXo5o6wLtU-5Sx_e1EepLX_VHt8kIxpwQ5x_OM0laqRoT1z6PjYFVx2bRteMV-JyuW4fnjJmPw90lnEj-HTm3YIbSft1zj_0w36yJyrDy0gINXPY5pEbyUC0QnRrbV1Zuidu2EDpuUF4GrsKWz1scD5gNRSYgPSRMOc5jSK0rxyeDc3kb474du2dWjj9wQWwe0JgUqMJof1JS02imNbdUmHJ_yxQqsvnnqxl9ERiSC9gp_02MqykGRv2Tv67-hRe_utkLBsVsV2mozuhWmgePg4bliJtgVFFuTWI2EOJDMLxzPHoF3R-OpFtvmyrsNJILThaF1r66O46aGAycrcqMcj9xdjW9i--THO1apL8JiA-MK8zS0RUDB33o1-k1KMKgi5NftzojJrmA2XuRbZCPNlSaBYI8X52IbYwfa3lhDQLJvORKXLSoxTTlc=w448-h410-no"
-                                        alt="Name Badge React Component" className="imagehomepage"/></a></Link>
-                                    <p>Name Badge React Component</p>
+                                    <a href="https://fun-food-friends-d09e7.firebaseapp.com/" target="blank"><img
+                                        src="https://lh3.googleusercontent.com/LCpXzSKpkXwAyEpDn0wVEsdMAucSiYROXfsoeLlnY1LpVg6QWX6YDqjGV6dVrV6bx7LHKwnMFnNKGsVU6RnfJInHlZrj-def6XyFJTe9F8RDr_3NiQMH1eo_UBM2nA9fuMIx--k7fYngqa-gKEv66_2x77sJ_hHWU27zL-salE8pqaCAoimPxgOkQhhLwSiaKkZ99ZtOAgL0QYcDdRA2udTrPaf7OH2EK1yL72SjseoAN1oYQ8s08wp6CK5Wt-IgRcWgVlBu79zgznlVEzySXxgwOaU7l1jkcSYaMq565K8GAbc_JSMzvGQGx0UqtpcnzXyJGi5Pph-oisr0lzd0bjozkMW-VY3KGzYlf1ybZaWnwsj3iAXaD9chqlyk0ZUkULoymL-KuHD943rdDGJi0ABIoEvV261sg6y53ZvG0RdFWffJhIRUgyzhVRQdRKgkEh-PjHwSH9MlOHxhVZJAQnC7e8OcP9TABB4e_4fYXMDPutcS99eyZMtSzH-WYfbG45nqDWguKAidKsERlT4LgLAtWHVo-AzDATE0pb2OQyrDmDSwxTbkh-mhqY3Frnp1Y4xof8uJyKCX0_9XSOak0-V7J4rZz6f3Uf9ScniwhjkJzKhOCwyP5CPZnGIatGwHlABQuHf1vxe1FH56wypgqbbbCmrLkune=w376-h665-no"
+                                        alt="Shopping Brain" className="imagehomepage"/></a>
+                                    <p>Shopping App "Shopping Brain"</p>
                                 </div>
                             </div>
                         </div>
@@ -50,10 +50,10 @@ class Portfolio extends Component {
                             </div>
                             <div className="col">
                                 <div>
-                                    <img
-                                        src="https://lh3.googleusercontent.com/KTu8LnnUsCMDK03uJJBlBGHHtP9b5lotxROPtGdgYxDDPzEPiY9cZIBAK9JBhawP7iPkggK5vTcqcbbNgkHBYjKRz1LR1LnoBr1-AM4H55EFNtXnnkWtrF9jw7iR8IH5j_trIxSdRGKef_UdPa-wzN-_uMPgACtFzkmdfcjqV1Zk9VzJ-sMsh1iy-CCC3h_G2SjCDRcCK0P1fVFRUl1DYGBceayqIvnXGmVvM4R8zXLJqPd0n8dLQg04yIGoyp15-LJHRbtoPDQtxEGtnPRX9-YB-FZvYy5OTpO_tp4ka58lixLZmDqnleKkcOtJe3lMwvo6pLli_wbBFLgvp1WNLZwxBSsurg7rxns4sBtLoZLW1DN_U5Am2uh6kemD7PZ7v3v6qK38DRvvbplfIq9c7yKGNRu0kyNQj2e00bvgSo-FcXK42bw5g8M5hcYO_O0NYj1E66Atezw3GY40BpPu6KNeq81deEjINKF4fOdnwLJ3xTPL9unGFfZUa7ilGaB6OeTWiMyTZ6SWZUcWTH8Vx0DS4r0ERtqGlN_ym68jVj0KMKzG5MKSo3Rzs_QOhs2msjPOAs_aSKdkIIoCU0jNEHtWkvuwclt_hmNqWRRmq7ArGBg3mp01vBgY8UCqw_xUtdO9d8zihHs5AjWhzOyIQ_qdPgQxoAwC=w2422-h1818-no"
-                                        alt="Drawing" className="imagehomepage"/>
-                                    <p>College Art Background</p>
+                                    <Link to="NameBadgeComp"><a href=""><img
+                                        src="https://lh3.googleusercontent.com/1Y4A9zrUGi1VrCfvkO5JL7dVD0v2uLX0ACLJi3iVOnO31kqOjUUFtDxjcO9kP6mn-ZMgdntJ0gXlpF5Sgh-EBt0f1DTArFN8E5M0CjalaLOw5yWHm3ho0NbDIz6jU7dnNAgvM2OLd8OOSxJLmhBVi4L2B-Pnm2jt-COVgCYbDVarlDznIjwMAJg0ttXUxIevgn25v9lNV-zVA1afJGmKG-gGCVusShdWZamg6qwXo5o6wLtU-5Sx_e1EepLX_VHt8kIxpwQ5x_OM0laqRoT1z6PjYFVx2bRteMV-JyuW4fnjJmPw90lnEj-HTm3YIbSft1zj_0w36yJyrDy0gINXPY5pEbyUC0QnRrbV1Zuidu2EDpuUF4GrsKWz1scD5gNRSYgPSRMOc5jSK0rxyeDc3kb474du2dWjj9wQWwe0JgUqMJof1JS02imNbdUmHJ_yxQqsvnnqxl9ERiSC9gp_02MqykGRv2Tv67-hRe_utkLBsVsV2mozuhWmgePg4bliJtgVFFuTWI2EOJDMLxzPHoF3R-OpFtvmyrsNJILThaF1r66O46aGAycrcqMcj9xdjW9i--THO1apL8JiA-MK8zS0RUDB33o1-k1KMKgi5NftzojJrmA2XuRbZCPNlSaBYI8X52IbYwfa3lhDQLJvORKXLSoxTTlc=w448-h410-no"
+                                        alt="Name Badge React Component" className="imagehomepage"/></a></Link>
+                                    <p>Name Badge React Component</p>
                                 </div>
                             </div>
                         </div>
