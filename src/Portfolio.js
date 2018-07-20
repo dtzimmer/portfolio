@@ -19,7 +19,7 @@ class Portfolio extends Component {
                         <div className="row">
                             <div className="col">
                                 <div>
-                                    <a href="https://build-ccjcuqcccj.now.sh/" target="blank"><img
+                                    <a href="https://distracted-euler-7d1fbe.netlify.com/" target="blank"><img
                                         src="https://lh3.googleusercontent.com/mHDtXdSnjxCn_hxLyLmPqNWaTBLmh3vPTBeLw2dORqkakdGGXlW-cIBKoBX58Pkd-7CS595yk_kHobJc4e2nN2LIHMoGdMkh3ESWjsxqkpyXQrbmabzyVxiRtCKolTAKC3tmbBcuJ0FBv0whV1gNjgpqTZRYv5n6z1SrJ794jUWjGOhUbHC8bXHO4650ysG5jFS3vQCD_M88FLeoZaDpLJGg7Auc1PiZxRGqijqKyrgxuvf-QP5Zvhk7CWO7AjR9cYjADcd_EMfAYIQcbGK6th-22946x1aCdWxXC1pRQccfRcYPyDzul3xCv85vWIUaqlrEXs59snSTGWWHUP3oQ1BdnWu9oSkYZ_GvkGHNLf0x2WowqE-OAj3X0OPxiOcmiOhjqqnDhsQ_Z5DlT7eRKXcde0cexIKeoLi7fFywPwQA95BcvwjCgwA-YLY7_t2B_yHqRn_3kXuR9TU6TLPNNIuW2RNe7fVctFHPZraa081B6gQD_mQNl57tgoC-0fh1CkwUtIP96uG-4t6Qh4by8k1i2N1FM-2vX2cfqvtWoFmZaAXEd2rgSs00Qb1Ff8HwJSupUefkiWqaP7TNmVWR2CrFPMtyfjbS60yAjYjPgJ-wgOB8VlhO5h8t-Xsrlnk0JIH4EszLXQemeo20twAWYjjmlci7gOTO=s500-no"
                                         alt="Smile At My Profile" className="imagehomepage"/></a>
                                     <p>Smile At My Profile</p>

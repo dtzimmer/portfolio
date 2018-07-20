@@ -20,7 +20,7 @@ class WorkExperience extends Component {
                             <div className="col">
                                 <div>
                                     <h3> Education </h3>
-                                    <img src="https://media.licdn.com/mpr/mpr/AAIA_wDGAAAAAQAAAAAAAAmhAAAAJDViOWExMGJmLTYwMDItNDhhYy1hN2VhLTM4ODIwNWZmNDYyYQ.png" alt="byu" width="100%"/>
+                                    <img src="http://logonoid.com/images/byu-logo.png" alt="byu" width="100%"/>
                                     <p>BS Elementary Education (K-6)</p>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@ class WorkExperience extends Component {
                                 <div>
                                     <h3> Technology Training </h3>
                                     <img
-                                        src="https://photos.prnewswire.com/prnfull/20160713/389522LOGO"
+                                        src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/3954/s300/hel-stackedlogo-onwhite.png"
                                         alt="Logo" width="100%"/>
                                     <p>Certification of Competency</p>
                                 </div>
