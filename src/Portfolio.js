@@ -1,6 +1,5 @@
 import React, {Component, Fragment} from 'react'
 import './App.css';
-import { Link } from 'react-router-dom'
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -21,9 +20,9 @@ class Portfolio extends Component {
                             <div className="col">
                                 <div>
                                     <a href="https://build-ccjcuqcccj.now.sh/" target="blank"><img
-                                        src="https://lh3.googleusercontent.com/wByre9jQSBMf0MpNrfJEv8GuaS3q3TLGpicRSj3ZBU4anB4MhVFb6K5GltnqMCYO_Gw15iRTco9Jp_yBf4XV8oF9hCqMKwp2Ln1GnGvI_Xq_wGYZ5pOg8I5SWTN_ih6JcZ1ql2r0dlkFmsPK48Ch_rviOVw6f0vt3VwvHdyUTbZCMdnr1EEMGikMrsTESKJcv3NiCYJL7Miy5DwAfXTsw3OnreaDSRZq7EwUq30NafCzZScp6YElOxILD-nVJXD4wMh56upHGPHHfVJQccTfuw06_LSVknSdOpa0Z5KX-_qZkbWHBzcNDTh_7pEZr3yKr21-uKyzgro5wDQiXeLgOzKg1_ZfN1aW2YOmSbnMdc_lYs_hAy4JRhlVyBHCLJxfOUaL3z_h8QMKk_6Kr_IiCgqx0gmF3-FLLpn3HKo5_GaNc9O1RBbKpPZOFdDva4usCHk-hWMX7_wIMtzWSiOylt42zh_w1fDX6aqWas36JqSmJzFKrg4Yd1IKT_EexEnDUT9iacLppwYgr6Ti_CCYnAvZsqCk06XDn2biBCqXh7aHJUaXeygppEjaXZwEUkth01NrvCglSwt_nNm9bfU55bu8BkuEXCrwkeu2W0A5NWmfk1tyfe89Omwq6pFUqDaBqI_9aT-DnCh8l_GaVYiY-5cGhnT3F3E_=w1145-h665-no"
-                                        alt="Utah Jazz Site" className="imagehomepage"/></a>
-                                    <p>Utah Jazz Fan Site</p>
+                                        src="https://lh3.googleusercontent.com/mHDtXdSnjxCn_hxLyLmPqNWaTBLmh3vPTBeLw2dORqkakdGGXlW-cIBKoBX58Pkd-7CS595yk_kHobJc4e2nN2LIHMoGdMkh3ESWjsxqkpyXQrbmabzyVxiRtCKolTAKC3tmbBcuJ0FBv0whV1gNjgpqTZRYv5n6z1SrJ794jUWjGOhUbHC8bXHO4650ysG5jFS3vQCD_M88FLeoZaDpLJGg7Auc1PiZxRGqijqKyrgxuvf-QP5Zvhk7CWO7AjR9cYjADcd_EMfAYIQcbGK6th-22946x1aCdWxXC1pRQccfRcYPyDzul3xCv85vWIUaqlrEXs59snSTGWWHUP3oQ1BdnWu9oSkYZ_GvkGHNLf0x2WowqE-OAj3X0OPxiOcmiOhjqqnDhsQ_Z5DlT7eRKXcde0cexIKeoLi7fFywPwQA95BcvwjCgwA-YLY7_t2B_yHqRn_3kXuR9TU6TLPNNIuW2RNe7fVctFHPZraa081B6gQD_mQNl57tgoC-0fh1CkwUtIP96uG-4t6Qh4by8k1i2N1FM-2vX2cfqvtWoFmZaAXEd2rgSs00Qb1Ff8HwJSupUefkiWqaP7TNmVWR2CrFPMtyfjbS60yAjYjPgJ-wgOB8VlhO5h8t-Xsrlnk0JIH4EszLXQemeo20twAWYjjmlci7gOTO=s500-no"
+                                        alt="Smile At My Profile" className="imagehomepage"/></a>
+                                    <p>Smile At My Profile</p>
                                 </div>
                             </div>
                             <div className="col">
@@ -42,18 +41,18 @@ class Portfolio extends Component {
                         <div className="row">
                             <div className="col">
                                 <div>
-                                    <a href="https://github.com/dtzimmer/imdbhw" target="blank"><img
-                                        src="https://lh3.googleusercontent.com/cS2MVeGv3r27u4UrCiRPufg3dcTZ1BrnhvsXvZlYg734OJ8nAD6XYUJ4K6ZBsMXlkGISvDJUdVb9HtFHcTikxVKec0CWPrKgpebc_3hacmqn5Cm_FNh-5Ynrc90c3TJQSpvOugmgLzl1h3BvGJr6OXRV2SuG9OMtjf-EMXZI0MgC5imxYrlZsucJxgmAsU9UXGNegbu7-4oD3if9BWXIEFWu0WNoFEUbilwbopgQws4w1ND-OWYofqILeVrL2_xHOHdDEhj6u6IGr_WEL6fxijEthjboDb8MmEJ6gp4S6lUQbsRM8ZloyGb1ZE1RSND3KCpsLtg1gRgLqazg1Vak8_H4xqqV2XFVB_akLQxH_qTIGGxImqa7a8KalGgswrBPaHtisXl3WhA41TAlRtIJtQBHkWzv4b1-2nr1Ctk3BQPRusuXe7WsINODJllwYPjhhnPcUPUm70Z6O0CdTKQB-yOcEILtjHDu4u1M8uwifhwwVeFIqSFZ3cda85YDkrJnbbCsEb2eobFlEW--YNEDxdEGlRf6NJhVm-n8hNAaUUG8JqqqygBG68igbeWbp-BwXKWzGKdqDzY6U-Yefk3vyJd_7pxcgg4IZQS79H5RFcMgRmNbp62DPIAYUu4orhfJu5e0DCtkvURvZwgnduawMdlLT3I_ZxCA=w1127-h694-no"
-                                        alt="IMDB" className="imagehomepage" /></a>
-                                    <p>Recreate IMDB Website</p>
+                                    <a href="https://build-ccjcuqcccj.now.sh/" target="blank"><img
+                                        src="https://lh3.googleusercontent.com/wByre9jQSBMf0MpNrfJEv8GuaS3q3TLGpicRSj3ZBU4anB4MhVFb6K5GltnqMCYO_Gw15iRTco9Jp_yBf4XV8oF9hCqMKwp2Ln1GnGvI_Xq_wGYZ5pOg8I5SWTN_ih6JcZ1ql2r0dlkFmsPK48Ch_rviOVw6f0vt3VwvHdyUTbZCMdnr1EEMGikMrsTESKJcv3NiCYJL7Miy5DwAfXTsw3OnreaDSRZq7EwUq30NafCzZScp6YElOxILD-nVJXD4wMh56upHGPHHfVJQccTfuw06_LSVknSdOpa0Z5KX-_qZkbWHBzcNDTh_7pEZr3yKr21-uKyzgro5wDQiXeLgOzKg1_ZfN1aW2YOmSbnMdc_lYs_hAy4JRhlVyBHCLJxfOUaL3z_h8QMKk_6Kr_IiCgqx0gmF3-FLLpn3HKo5_GaNc9O1RBbKpPZOFdDva4usCHk-hWMX7_wIMtzWSiOylt42zh_w1fDX6aqWas36JqSmJzFKrg4Yd1IKT_EexEnDUT9iacLppwYgr6Ti_CCYnAvZsqCk06XDn2biBCqXh7aHJUaXeygppEjaXZwEUkth01NrvCglSwt_nNm9bfU55bu8BkuEXCrwkeu2W0A5NWmfk1tyfe89Omwq6pFUqDaBqI_9aT-DnCh8l_GaVYiY-5cGhnT3F3E_=w1145-h665-no"
+                                        alt="Utah Jazz Site" className="imagehomepage"/></a>
+                                    <p>Utah Jazz Fan Site</p>
                                 </div>
                             </div>
                             <div className="col">
                                 <div>
-                                    <Link to="NameBadgeComp"><a href=""><img
-                                        src="https://lh3.googleusercontent.com/1Y4A9zrUGi1VrCfvkO5JL7dVD0v2uLX0ACLJi3iVOnO31kqOjUUFtDxjcO9kP6mn-ZMgdntJ0gXlpF5Sgh-EBt0f1DTArFN8E5M0CjalaLOw5yWHm3ho0NbDIz6jU7dnNAgvM2OLd8OOSxJLmhBVi4L2B-Pnm2jt-COVgCYbDVarlDznIjwMAJg0ttXUxIevgn25v9lNV-zVA1afJGmKG-gGCVusShdWZamg6qwXo5o6wLtU-5Sx_e1EepLX_VHt8kIxpwQ5x_OM0laqRoT1z6PjYFVx2bRteMV-JyuW4fnjJmPw90lnEj-HTm3YIbSft1zj_0w36yJyrDy0gINXPY5pEbyUC0QnRrbV1Zuidu2EDpuUF4GrsKWz1scD5gNRSYgPSRMOc5jSK0rxyeDc3kb474du2dWjj9wQWwe0JgUqMJof1JS02imNbdUmHJ_yxQqsvnnqxl9ERiSC9gp_02MqykGRv2Tv67-hRe_utkLBsVsV2mozuhWmgePg4bliJtgVFFuTWI2EOJDMLxzPHoF3R-OpFtvmyrsNJILThaF1r66O46aGAycrcqMcj9xdjW9i--THO1apL8JiA-MK8zS0RUDB33o1-k1KMKgi5NftzojJrmA2XuRbZCPNlSaBYI8X52IbYwfa3lhDQLJvORKXLSoxTTlc=w448-h410-no"
-                                        alt="Name Badge React Component" className="imagehomepage"/></a></Link>
-                                    <p>Name Badge React Component</p>
+                                    <a href="https://github.com/dtzimmer/imdbhw" target="blank"><img
+                                        src="https://lh3.googleusercontent.com/cS2MVeGv3r27u4UrCiRPufg3dcTZ1BrnhvsXvZlYg734OJ8nAD6XYUJ4K6ZBsMXlkGISvDJUdVb9HtFHcTikxVKec0CWPrKgpebc_3hacmqn5Cm_FNh-5Ynrc90c3TJQSpvOugmgLzl1h3BvGJr6OXRV2SuG9OMtjf-EMXZI0MgC5imxYrlZsucJxgmAsU9UXGNegbu7-4oD3if9BWXIEFWu0WNoFEUbilwbopgQws4w1ND-OWYofqILeVrL2_xHOHdDEhj6u6IGr_WEL6fxijEthjboDb8MmEJ6gp4S6lUQbsRM8ZloyGb1ZE1RSND3KCpsLtg1gRgLqazg1Vak8_H4xqqV2XFVB_akLQxH_qTIGGxImqa7a8KalGgswrBPaHtisXl3WhA41TAlRtIJtQBHkWzv4b1-2nr1Ctk3BQPRusuXe7WsINODJllwYPjhhnPcUPUm70Z6O0CdTKQB-yOcEILtjHDu4u1M8uwifhwwVeFIqSFZ3cda85YDkrJnbbCsEb2eobFlEW--YNEDxdEGlRf6NJhVm-n8hNAaUUG8JqqqygBG68igbeWbp-BwXKWzGKdqDzY6U-Yefk3vyJd_7pxcgg4IZQS79H5RFcMgRmNbp62DPIAYUu4orhfJu5e0DCtkvURvZwgnduawMdlLT3I_ZxCA=w1127-h694-no"
+                                        alt="IMDB" className="imagehomepage" /></a>
+                                    <p>Recreate IMDB Website</p>
                                 </div>
                             </div>
                         </div>

@@ -29,48 +29,53 @@ class HomePage extends Component {
                                     alt="Daniel Zimmerman" className="imagehomepage"/>
                             </div>
                             <div className="col">
-                                <a href="https://heliotraining.com/" target="blank"><img
-                                    src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/3954/s300/hel-stackedlogo-onwhite.png"
-                                    alt="Helio Logo" className="imagehelio"/></a>
+                                <a href="https://reactjs.org/" target="blank"><img
+                                    src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png"
+                                    alt="React Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="https://appendto.com/wp-content/uploads/2016/05/javascript-e1477353149155.png"
+                                    alt="JS Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="https://cdn-images-1.medium.com/max/2000/1*q9ww_u32hhpMaA-Q_s1ujw.png"
+                                    alt="NodeJS Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="https://www.lifewire.com/thmb/zrcb1zA4Vi47uULJhJKJdcshBgk=/1024x1024/filters:fill(auto,1)/css3-57b597e85f9b58b5c2b338de.png"
+                                    alt="CSS Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="http://jslancer.com/wp-content/uploads/2017/08/GraphQL-Apollo.jpg"
+                                    alt="GraphQL and Apollo Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/102017/logo_0.png?17TK91b1B6OvV2MFrCLfukw1c8oEaNr6&itok=vsanFiUj"
+                                    alt="AWS Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="https://ih0.redbubble.net/image.489553250.2202/flat,550x550,075,f.jpg"
+                                    alt="Firebase Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="https://cdn-images-1.medium.com/max/1200/1*oK0VF4K-Z1JsxsKytP54nA.png"
+                                    alt="Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="https://rlv.zcache.co.uk/gitkraken_stickers-r514220fb582c40a88e313a74d7660fe6_v9i40_8byvr_540.jpg"
+                                    alt="Logo" className="logoimages"/></a>
+                                <a href="" target="blank"><img
+                                    src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
+                                    alt="Logo" className="logoimages"/></a>
                             </div>
                         </div>
                     </div>
                 </section>
-               <header>
-                   <h2>About Me</h2>
-               </header>
                <section>
                    <div className="container">
-                       <div className="row">
-                           <div className="col">
-                               <p>
-                                   I'm attending Helio Training full-stack web development to learn
-                                   skills needed to design and build a front-end web app that does
-                                   everything it needs to on the back-end. This includes learning server-side
-                                   program code, implementation, and maintaining a fully functional,
-                                   interactive website. I hope to be a critical member of the development
-                                   team with the knowledge and wisdom to make more informed decisions
-                                   at every stage of the development process.
-                               </p>
+                       <h3> Coming Soon...</h3>
+                               <a href="" target="blank"><img
+                                   src="https://cacm.acm.org/system/assets/0002/7119/042117_Theodo_MongoDB.large.jpg?1492791427&1492791427"
+                                   alt="MongoDB Logo" className="logoimages"/></a>
+                               <a href="" target="blank"><img
+                                   src="https://sdtimes.com/wp-content/uploads/2018/01/angularjs-logo-300x162.jpg"
+                                   alt="Angular Logo" className="logoimages"/></a>
+                               <a href="" target="blank"><img
+                                   src="https://rynop.files.wordpress.com/2016/09/ts.png?w=816"
+                                   alt="TypeScript Logo" className="logoimages"/></a>
                            </div>
-                           <div className="col">
-                               <h3>My Web Development Skills...</h3>
-                               <ul>
-                                   <li>HTML/CSS</li>
-                                   <li>JavaScript/JSON</li>
-                                   <li>Angular 2</li>
-                                   <li>React</li>
-                                   <li>NodeJS</li>
-                                   <li>Express/Hapi</li>
-                                   <li>MongoDB</li>
-                                   <li>GraphQL</li>
-                                   <li>Test-driven Development</li>
-                                   <li>GitHub</li>
-                                   <li>RESTful APIs</li>
-                               </ul>
-                           </div>
-                       </div>
-                   </div>
                </section>
 
                 <Footer/>

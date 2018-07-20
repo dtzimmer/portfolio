@@ -20,27 +20,17 @@ class WorkExperience extends Component {
                             <div className="col">
                                 <div>
                                     <h3> Education </h3>
-                                    <ul>
-                                        <li>Helio Training - Full Stack Web Development</li>
-                                        <li>BYU - BS Elementary Education (K-6)</li>
-                                    </ul>
+                                    <img src="https://media.licdn.com/mpr/mpr/AAIA_wDGAAAAAQAAAAAAAAmhAAAAJDViOWExMGJmLTYwMDItNDhhYy1hN2VhLTM4ODIwNWZmNDYyYQ.png" alt="byu" width="100%"/>
+                                    <p>BS Elementary Education (K-6)</p>
                                 </div>
                             </div>
                             <div className="col">
                                 <div>
                                     <h3> Technology Training </h3>
-                                    <ul>
-                                        <li>HTML/CSS</li>
-                                        <li>JavaScript/JSON</li>
-                                        <li>React</li>
-                                        <li>NodeJS</li>
-                                        <li>Express/Hapi</li>
-                                        <li>MongoDB</li>
-                                        <li>GraphQL</li>
-                                        <li>RESTful APIs</li>
-                                        <li>Test-driven Development</li>
-                                        <li>Git</li>
-                                    </ul>
+                                    <img
+                                        src="https://photos.prnewswire.com/prnfull/20160713/389522LOGO"
+                                        alt="Logo" width="100%"/>
+                                    <p>Certification of Competency</p>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +39,7 @@ class WorkExperience extends Component {
                 <section>
                     <h3> Download My Resume </h3>
                     <div>
-                        <button><a href="https://drive.google.com/file/d/13x4AktwydbAwrG2u-UwR1OyUTK1B_Es2/view?usp=sharing" target="blank">Resume</a></button>
+                        <button><a href="https://drive.google.com/file/d/1GMcig61koDVq3lo1bYtHnogxEQGe9xsy/view?usp=sharing" target="blank">Resume</a></button>
                     </div>
                 </section>
                 <header className="backgroundimagesections">

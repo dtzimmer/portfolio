@@ -66,21 +66,25 @@ button {
   width: 70%;
   height: auto;
   margin: 20px;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .imagehomepage {
     width: 30vw;
     height: auto;
     margin: 10%;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px grey;
 }
 
-.imagehelio {
+.logoimages {
     background: black;
-    width: 30vw;
+    width: 10vw;
     height: auto;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .imagenamebadge {
