@@ -4,8 +4,8 @@ figcaption {
 }
 
 body {
-  background-color: white;
-  padding-top: 10vh;
+    background-color: white;
+    padding-top: 10vh;
     background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;
     background-size: cover;
 }
@@ -33,7 +33,7 @@ footer {
 }
 
 h1 {
-   font-size: 7vh;
+    font-size: 7vh;
     color: white;
 }
 
@@ -43,13 +43,15 @@ h2 {
 }
 
 h3 {
-  padding: 10px;
-  color: black;
+    padding: 10px;
+    color: black;
+    text-align: center;
 }
 
 p {
-  padding:10px;
-  color: black;
+    padding: 10px;
+    color: black;
+    text-align: center;
 }
 
 button {
@@ -63,10 +65,10 @@ button {
 }
 
 .image {
-  width: 70%;
-  height: auto;
-  margin: 20px;
-  box-shadow: 5px 5px 5px grey;
+    width: 70%;
+    height: auto;
+    margin: 20px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .imagehomepage {
@@ -87,24 +89,24 @@ button {
     box-shadow: 5px 5px 5px grey;
 }
 
-.imagenamebadge {
+.imagewebpage {
     width: 30vw;
     height: auto;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px grey;
 }
 
-.imagewebpage{
-    width: 30vw;
-    height: auto;
-    box-shadow: 5px 5px 5px black;
+.resumeimages {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 5px 5px 5px grey;
 }
-
 
 a {
     text-decoration: none;
     color: black;
 }
-
 
 li, ul {
     color: black;
@@ -124,23 +126,21 @@ section {
     border-radius: 5px;
 }
 
-
 form {
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: space-between;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
 }
 
 article {
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 }
-
 
 .navbar {
     display: flex;
@@ -162,12 +162,10 @@ article {
     text-decoration: none;
 }
 
-
 label {
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 .nbmain {
     height: auto;
@@ -201,9 +199,9 @@ label {
 }
 
 /*.backgroundimagesections {*/
-    /*background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;*/
-    /*background-size: cover;*/
-    /*height: 30vh;*/
-    /*padding-top: 30px;*/
+/*background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;*/
+/*background-size: cover;*/
+/*height: 30vh;*/
+/*padding-top: 30px;*/
 /*}*/
 
