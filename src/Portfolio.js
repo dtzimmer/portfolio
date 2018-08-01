@@ -27,10 +27,10 @@ class Portfolio extends Component {
                             </div>
                             <div className="col">
                                 <div>
-                                    <a href="https://fun-food-friends-d09e7.firebaseapp.com/" target="blank"><img
-                                        src="https://lh3.googleusercontent.com/LCpXzSKpkXwAyEpDn0wVEsdMAucSiYROXfsoeLlnY1LpVg6QWX6YDqjGV6dVrV6bx7LHKwnMFnNKGsVU6RnfJInHlZrj-def6XyFJTe9F8RDr_3NiQMH1eo_UBM2nA9fuMIx--k7fYngqa-gKEv66_2x77sJ_hHWU27zL-salE8pqaCAoimPxgOkQhhLwSiaKkZ99ZtOAgL0QYcDdRA2udTrPaf7OH2EK1yL72SjseoAN1oYQ8s08wp6CK5Wt-IgRcWgVlBu79zgznlVEzySXxgwOaU7l1jkcSYaMq565K8GAbc_JSMzvGQGx0UqtpcnzXyJGi5Pph-oisr0lzd0bjozkMW-VY3KGzYlf1ybZaWnwsj3iAXaD9chqlyk0ZUkULoymL-KuHD943rdDGJi0ABIoEvV261sg6y53ZvG0RdFWffJhIRUgyzhVRQdRKgkEh-PjHwSH9MlOHxhVZJAQnC7e8OcP9TABB4e_4fYXMDPutcS99eyZMtSzH-WYfbG45nqDWguKAidKsERlT4LgLAtWHVo-AzDATE0pb2OQyrDmDSwxTbkh-mhqY3Frnp1Y4xof8uJyKCX0_9XSOak0-V7J4rZz6f3Uf9ScniwhjkJzKhOCwyP5CPZnGIatGwHlABQuHf1vxe1FH56wypgqbbbCmrLkune=w376-h665-no"
-                                        alt="Shopping Brain" className="imagehomepage"/></a>
-                                    <p>Shopping App "Shopping Brain"</p>
+                                    <a href="https://fetch.netlify.com/" target="blank"><img
+                                        src="https://lh3.googleusercontent.com/Qg5ikA-7_UHuCQxcaxSuk4XxJEpWxjPKvQta2IM9LccvqBRxeYhQJ2dfDvxBbAAIIvfoQUaHXHTe0SbVEH2cBip7GVJbHoTYosXoX5qYYlHD2EfzoSo4TX5oaDJySnvU945iDDL_smjr-GYTxfC5xpoep565Lkdn4p0c_uGbWSOPqkipocu27XkxTioj6ZLYpRxTeSow8aB1EeA9s2lLNatpXC3o6E_qR9v2lH2LClo-mobdUHhKQTw5wK9Ja0zCkg-bv4VfXyqlY2QIll3d7ko3j4dNQP9qYIVDqszJEjEnkX4Vgdrl2RP5cPIpITTzuHRdcEHkVg2euQs02ElPrVJ9HuWqroBTMbshssegjfSGdZGU-y4TLho-O4bvv1UDa_hBiMtiOYkA73_1ICDWu79wucT3xyVfCQ2hcpDKGH75mGX3BzoKPpfUPaWTjr1aEudJPyulW-2ZzlBcVwsMwSosWRaMEG4w5cDc7W8K_mbOtvZpNKUUydOxM4oHV_ooS1u7GR1nonPkfdMeIVZluwMSq9rG8z_vwuxdfoIPGWWlPJtg4Bw58mL0uZeayBqp4Z8s5eUzUBmu_G6n7svD2_bTcSZC4a0EDR-1Hm76Ktp0l0d8dGis0ltSrk-T3YmgbVwTZkzGH164h-byefASbub2NDn5qg3i=s500-no"
+                                        alt="Fetch Website" className="imagehomepage"/></a>
+                                    <p>fetch.netlify.com</p>
                                 </div>
                             </div>
                         </div>
@@ -41,18 +41,18 @@ class Portfolio extends Component {
                         <div className="row">
                             <div className="col">
                                 <div>
-                                    <a href="https://build-ccjcuqcccj.now.sh/" target="blank"><img
-                                        src="https://lh3.googleusercontent.com/wByre9jQSBMf0MpNrfJEv8GuaS3q3TLGpicRSj3ZBU4anB4MhVFb6K5GltnqMCYO_Gw15iRTco9Jp_yBf4XV8oF9hCqMKwp2Ln1GnGvI_Xq_wGYZ5pOg8I5SWTN_ih6JcZ1ql2r0dlkFmsPK48Ch_rviOVw6f0vt3VwvHdyUTbZCMdnr1EEMGikMrsTESKJcv3NiCYJL7Miy5DwAfXTsw3OnreaDSRZq7EwUq30NafCzZScp6YElOxILD-nVJXD4wMh56upHGPHHfVJQccTfuw06_LSVknSdOpa0Z5KX-_qZkbWHBzcNDTh_7pEZr3yKr21-uKyzgro5wDQiXeLgOzKg1_ZfN1aW2YOmSbnMdc_lYs_hAy4JRhlVyBHCLJxfOUaL3z_h8QMKk_6Kr_IiCgqx0gmF3-FLLpn3HKo5_GaNc9O1RBbKpPZOFdDva4usCHk-hWMX7_wIMtzWSiOylt42zh_w1fDX6aqWas36JqSmJzFKrg4Yd1IKT_EexEnDUT9iacLppwYgr6Ti_CCYnAvZsqCk06XDn2biBCqXh7aHJUaXeygppEjaXZwEUkth01NrvCglSwt_nNm9bfU55bu8BkuEXCrwkeu2W0A5NWmfk1tyfe89Omwq6pFUqDaBqI_9aT-DnCh8l_GaVYiY-5cGhnT3F3E_=w1145-h665-no"
-                                        alt="Utah Jazz Site" className="imagehomepage"/></a>
-                                    <p>Utah Jazz Fan Site</p>
+                                    <a href="https://fun-food-friends-d09e7.firebaseapp.com/" target="blank"><img
+                                        src="https://lh3.googleusercontent.com/VLcMAS701eJJPpKa7ADwe1u9MJfAE8Jd5-lSfUt19Dv5Ym7VWOQrcykoQHDXYaHdxbvk6PBlQZvAjHfiZu7uyuRBNT1Mtx_WNiseM6T_7Q3s1Num55iblq6WHFKU7XIJ4qjJPSZBRmC3lVrPccM4LDVeWs8wviVyvYCyPpjUWuXoVKnTEnmTa8ICzL76GQaKZBSoKUK-icPu_zfuf-an8IDIc0bpiaN_oHLy1ia5uquSM5AxuFXjWoav_ktwcs2aMZymP0HIyUoWvB8hu4nDGX8NZnzfoFPDM9VBzGPpNCZi9mvC4vZJ8IbaUFxnHEgcYM0kK8D1AGWTHynQwy_Xt8BCxK1I_yz1jF69zJ6Ju1R8TbH0oLwGQHFjcLUjuswBOfqgt0zEg4KxJBrQOxvVJ6iyC421GJTUTPLrw3r3BujTjbEZMUN4tUaqL3YKqx6DuaVuy7ifioQjoyhsQ95eAmZHHyDv72TQq5zMZTk0nLf36-xlHkGAJnP0FInCcugw9fd9vox5C1whBSU8vbhwleup0PGz5W1rLhfkLbGQ8MwoOs_7lPj9_LMSHMIPwc_aQ8uPxD3jfCtkqSFeUPFBY1ao5QJx002WL96w-AlWADMDueA9Bwh9Hm3CTdHoPGwPdHw5KBHlrFC8lFLWOP5F3vmIUc4Ily6t=s500-no"
+                                        alt="Shopping Brain" className="imagehomepage"/></a>
+                                    <p>Shopping App "Shopping Brain"</p>
                                 </div>
                             </div>
                             <div className="col">
                                 <div>
-                                    <a href="https://github.com/dtzimmer/imdbhw" target="blank"><img
-                                        src="https://lh3.googleusercontent.com/cS2MVeGv3r27u4UrCiRPufg3dcTZ1BrnhvsXvZlYg734OJ8nAD6XYUJ4K6ZBsMXlkGISvDJUdVb9HtFHcTikxVKec0CWPrKgpebc_3hacmqn5Cm_FNh-5Ynrc90c3TJQSpvOugmgLzl1h3BvGJr6OXRV2SuG9OMtjf-EMXZI0MgC5imxYrlZsucJxgmAsU9UXGNegbu7-4oD3if9BWXIEFWu0WNoFEUbilwbopgQws4w1ND-OWYofqILeVrL2_xHOHdDEhj6u6IGr_WEL6fxijEthjboDb8MmEJ6gp4S6lUQbsRM8ZloyGb1ZE1RSND3KCpsLtg1gRgLqazg1Vak8_H4xqqV2XFVB_akLQxH_qTIGGxImqa7a8KalGgswrBPaHtisXl3WhA41TAlRtIJtQBHkWzv4b1-2nr1Ctk3BQPRusuXe7WsINODJllwYPjhhnPcUPUm70Z6O0CdTKQB-yOcEILtjHDu4u1M8uwifhwwVeFIqSFZ3cda85YDkrJnbbCsEb2eobFlEW--YNEDxdEGlRf6NJhVm-n8hNAaUUG8JqqqygBG68igbeWbp-BwXKWzGKdqDzY6U-Yefk3vyJd_7pxcgg4IZQS79H5RFcMgRmNbp62DPIAYUu4orhfJu5e0DCtkvURvZwgnduawMdlLT3I_ZxCA=w1127-h694-no"
-                                        alt="IMDB" className="imagehomepage" /></a>
-                                    <p>Recreate IMDB Website</p>
+                                    <a href="https://build-ccjcuqcccj.now.sh/" target="blank"><img
+                                        src="http://content.sportslogos.net/logos/6/234/full/3412_utah_jazz-alternate-2017.png"
+                                        alt="Utah Jazz Site" className="imagehomepage"/></a>
+                                    <p>Utah Jazz Fan Site</p>
                                 </div>
                             </div>
                         </div>
