@@ -25,8 +25,11 @@ class Header extends Component {
                             <Link to ="WorkExperience"><a className="nav-item nav-link">Work Experience</a></Link>
                         </div>
                     </div>
+                    <div>
+                        <a href="www.linkedin.com/in/dtzimmer" ><i className="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/dtzimmer" ><i className="fa fa-github"></i></a>
+                    </div>
                 </nav>
-
             </Fragment>
         )
     }

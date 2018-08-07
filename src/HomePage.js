@@ -17,18 +17,18 @@ class HomePage extends Component {
                 <header>
                     <h1>Daniel Zimmerman</h1>
                     <h2>Web Developer</h2>
+                    <div>
+                        <img
+                            src="https://lh3.googleusercontent.com/Zpbkpy39-lbYn6LKEP6O7Jnof1fVWNWfi7E43Q44Bm9iLGXLXltbfaRYcZE6l_wpruiTQiURkaF_ZiQuhm47HCcAdgiGo4NjXU5KA9Ki6N_AtXZOACcRZkqDqATIXf_zYLMSCvzNfndX_0hV7cmByMoi_FLShktHuwztW8JU56HU4MphvbiO9eXf76cBrgag2AjZF2pSx8-aetGsdH0EEi1iBYhmKtV1YmtSL3sA1UiaVTE0lUVDyYs1yPEa-lJyu1V-Z_80PK9AuutXTx6VMrr9xPEBR2TDyDIYjynUvT-Gl_PmkE9rzHYVXxCJHNrQRVhiclL2K6Z4mQGX1lD06WsZteN9vMpBWnikAh9SACPZF-DFaT-RwRJ-D6g4payA_qKFb1NKyUvOzxYqNWgAoPJx2ZTKd7gNgo8rURCssu6lV3MdX5mTNiFo14e7cft67LpE3JKymT0S4XMM7n8pW3rmWwgkQjpfln1MJda8H933IHCPhs1m8OxXtbLt_LPdPwrKplGwLHlC4TYYZbk0nBd73qnyVLyZaTsURIonpNa-HEp4JFNJK4L1JOd6fFrfaackQWUe8whCdzR8wNAYN1nSMiA2HdAdCgDEjEkqjljeGnwTCVIcbcqIFFUwxkqRLIxiIemTWhJwZqTVL3GGnC4N0Tx5EsmM=w408-h610-no"
+                            alt="Daniel Zimmerman" className="imagehomepage"/>
+                    </div>
                  </header>
 
 
-                <section>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col">
-                                <img
-                                    src="https://lh3.googleusercontent.com/Zpbkpy39-lbYn6LKEP6O7Jnof1fVWNWfi7E43Q44Bm9iLGXLXltbfaRYcZE6l_wpruiTQiURkaF_ZiQuhm47HCcAdgiGo4NjXU5KA9Ki6N_AtXZOACcRZkqDqATIXf_zYLMSCvzNfndX_0hV7cmByMoi_FLShktHuwztW8JU56HU4MphvbiO9eXf76cBrgag2AjZF2pSx8-aetGsdH0EEi1iBYhmKtV1YmtSL3sA1UiaVTE0lUVDyYs1yPEa-lJyu1V-Z_80PK9AuutXTx6VMrr9xPEBR2TDyDIYjynUvT-Gl_PmkE9rzHYVXxCJHNrQRVhiclL2K6Z4mQGX1lD06WsZteN9vMpBWnikAh9SACPZF-DFaT-RwRJ-D6g4payA_qKFb1NKyUvOzxYqNWgAoPJx2ZTKd7gNgo8rURCssu6lV3MdX5mTNiFo14e7cft67LpE3JKymT0S4XMM7n8pW3rmWwgkQjpfln1MJda8H933IHCPhs1m8OxXtbLt_LPdPwrKplGwLHlC4TYYZbk0nBd73qnyVLyZaTsURIonpNa-HEp4JFNJK4L1JOd6fFrfaackQWUe8whCdzR8wNAYN1nSMiA2HdAdCgDEjEkqjljeGnwTCVIcbcqIFFUwxkqRLIxiIemTWhJwZqTVL3GGnC4N0Tx5EsmM=w408-h610-no"
-                                    alt="Daniel Zimmerman" className="imagehomepage"/>
-                            </div>
-                            <div className="col">
+                <div className="homepagessection">
+                    <div>
+                        <h3>Current Skills...</h3>
+                    </div>
                                 <a href="https://reactjs.org/" target="blank"><img
                                     src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png"
                                     alt="React Logo" className="logoimages"/></a>
@@ -59,12 +59,8 @@ class HomePage extends Component {
                                 <a href="" target="blank"><img
                                     src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
                                     alt="Logo" className="logoimages"/></a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-               <section>
-                   <div className="container">
+                </div>
+               <div className="homepagessection">
                        <h3> Coming Soon...</h3>
                                <a href="" target="blank"><img
                                    src="https://cacm.acm.org/system/assets/0002/7119/042117_Theodo_MongoDB.large.jpg?1492791427&1492791427"
@@ -75,8 +71,7 @@ class HomePage extends Component {
                                <a href="" target="blank"><img
                                    src="https://rynop.files.wordpress.com/2016/09/ts.png?w=816"
                                    alt="TypeScript Logo" className="logoimages"/></a>
-                           </div>
-               </section>
+               </div>
 
                 <Footer/>
 

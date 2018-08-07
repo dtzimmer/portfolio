@@ -1,12 +1,6 @@
-figcaption {
-    color: black;
-    padding: 10px;
-}
-
 body {
-    background-color: white;
     padding-top: 10vh;
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;
+    background: #385a5a;
     background-size: cover;
 }
 
@@ -17,32 +11,30 @@ header {
     background: transparent;
     margin-right: 10vw;
     margin-left: 10vw;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 footer {
     background: whitesmoke;
     padding: 10px;
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: center;
-    font-family: fantasy;
-    margin-right: 10vw;
-    margin-left: 10vw;
+    font-family: sans-serif;
     border-radius: 5px;
 }
 
 h1 {
+    font-family: 'Cinzel', serif;
     font-size: 7vh;
     color: white;
 }
 
 h2 {
+    font-family: 'Cinzel', serif;
     font-size: 5vh;
     color: white;
 }
 
 h3 {
+    font-family: 'Cinzel', serif;
     padding: 10px;
     color: black;
     text-align: center;
@@ -55,13 +47,10 @@ p {
 }
 
 button {
-    margin-right: 10px;
-    margin-left: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px grey;
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .image {
@@ -74,18 +63,22 @@ button {
 .imagehomepage {
     width: 30vw;
     height: auto;
-    margin: 10%;
-    box-shadow: 5px 5px 5px grey;
+    margin: 2%;
+    box-shadow: 2px 2px 2px black;
+}
+
+.imageportfolio {
+    width: 30vw;
+    height: auto;
+    margin: 2%;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .logoimages {
     background: black;
-    width: 10vw;
+    width: 150px;
     height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 15px;
     box-shadow: 5px 5px 5px grey;
 }
 
@@ -103,9 +96,10 @@ button {
     box-shadow: 5px 5px 5px grey;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 li, ul {
@@ -118,10 +112,23 @@ section {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: whitesmoke;
-    margin-right: 10vw;
-    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+}
+
+.homepagessection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: whitesmoke;
+    margin-right: 5vw;
+    margin-left: 5vw;
     margin-bottom: 5vh;
     border-radius: 5px;
 }
@@ -198,10 +205,25 @@ label {
     border-radius: 20px;
 }
 
-/*.backgroundimagesections {*/
-/*background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLW1eBgTIBw_xsVGRt_rF8FLb5YGBlNodvmyv9p8bxQVzDOFm') fixed center top;*/
-/*background-size: cover;*/
-/*height: 30vh;*/
-/*padding-top: 30px;*/
-/*}*/
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
 
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa:hover {
+    background: grey;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+}

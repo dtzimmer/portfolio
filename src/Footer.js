@@ -9,8 +9,7 @@ class Footer extends Component {
             <Fragment>
 
                 <footer>
-                    <button href="https://www.linkedin.com/in/daniel-zimmerman-56959780/" target="blank">LinkedIn</button>
-                    <button href="https://github.com/dtzimmer" target="blank">GitHub</button>
+                    <p>This site was created by Dan Zimmerman using React.js</p>
                 </footer>
 
             </Fragment>
