@@ -51,7 +51,7 @@ class Portfolio extends Component {
                                 <div>
                                     <a href="https://build-ccjcuqcccj.now.sh/" target="blank"><img
                                         src="http://content.sportslogos.net/logos/6/234/full/3412_utah_jazz-alternate-2017.png"
-                                        alt="Utah Jazz Site" className="imagehomepage"/></a>
+                                        alt="Utah Jazz Site" className="imageportfolio"/></a>
                                     <p>Utah Jazz Fan Site</p>
                                 </div>
                             </div>

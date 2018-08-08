@@ -21,7 +21,7 @@ class Header extends Component {
                             <Link to ="/"><a className="nav-item nav-link active">Home <span
                                 className="sr-only">(current)</span></a></Link>
                             <Link to ="Portfolio"><a className="nav-item nav-link">Portfolio</a></Link>
-                            <Link to ="Contact"><a className="nav-item nav-link">Contact</a></Link>
+                            {/*<Link to ="Contact"><a className="nav-item nav-link">Contact</a></Link>*/}
                             <Link to ="WorkExperience"><a className="nav-item nav-link">Work Experience</a></Link>
                         </div>
                     </div>
