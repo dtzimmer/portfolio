@@ -46,7 +46,7 @@ class WorkExperience extends Component {
                             </div>
                             <div className="col">
                                 <div >
-                                    <a href="https://drive.google.com/file/d/1Srkw8affqRNVWi3LOfvFfX0ltYVvx6TU/view?usp=sharing"
+                                    <a href="https://drive.google.com/file/d/1W01ESLdpUTdQoXQwMq_DjfHXwiPZQfdZ/view?usp=sharing"
                                        target="blank"><img
                                         src="https://lh3.googleusercontent.com/MOJcuRZmA7Bn5UHw9aYcqsWIFn1zxdkDbIOLONkAeCp72tVxnW8LHsmz1NOdFtaG14XVOxu5-Z_BNDE5u36kqAL0ATXeeUEL4SSJwybee1g0oznkLGvRt01ZHbinj9dRWOBtJWhFVw-sIsdG8BTK7RYpdxmj3jkES3MonqNqRBPhFC83H67IzGpQUJ9KqNhzSDNP1R9FY2D0i3oee60oKgi7Q60BLlbrUsw8Z7SWkan8KEvlrKv-CMCsb4gDSMO2A3gEwwM-NC8mjn7xbe1SNZVv0-d6uqFoApPvYJEBTfamRIlWBdhze10vjydLVEGxYA194M8gIVAGyg-HH7gATUk5qMQpY1OxPwN_SpMqmnuuf1QrrMGpO6pvbH2RlLaYfDgoOxqyu08uLSYLMVXqki58iqmk2i2K1ZDehhY-yRyKHwMvENbv2w5voz0hHq-XW9f3WEixtTVPjUwGTHdVrw-pEBx5X-896BqFq9kQ6jh154yOLfc6DRBGjFiLfCW3-TCo9EzVCAgcMZdBc6ux77hTyUhrLUXre3KBsu9VdVXoVongBBTo153rpCR7G9WolLIpXfUINlLxeqXVvz3cRhFlMT7Qg9M7qF7EghhESflFfc0edMbrnOwznYIqdAjpm_tWFlniSs61Lha8c7161J9a_s-twE-t=w503-h620-no"
                                         alt="Resume Pic" className="resumeimages"/></a>
