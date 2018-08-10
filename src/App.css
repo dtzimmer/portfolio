@@ -1,17 +1,14 @@
 body {
-    padding-top: 10vh;
+    margin-top: 20vh;
     background: #385a5a;
     background-size: cover;
 }
 
 header {
     text-align: center;
-    font-family: fantasy;
-    padding: 10px;
-    background: transparent;
+    margin-top: 3vh;
     margin-right: 10vw;
     margin-left: 10vw;
-    border-radius: 2px;
 }
 
 footer {
@@ -23,13 +20,13 @@ footer {
 
 h1 {
     font-family: 'Cinzel', serif;
-    font-size: 7vh;
+    font-size: 5vw;
     color: white;
 }
 
 h2 {
     font-family: 'Cinzel', serif;
-    font-size: 5vh;
+    font-size: 3vw;
     color: white;
 }
 
@@ -44,6 +41,7 @@ p {
     padding: 10px;
     color: black;
     text-align: center;
+    font-size: 2vw;
 }
 
 button {
@@ -169,11 +167,6 @@ article {
     text-decoration: none;
 }
 
-label {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .nbmain {
     height: auto;
     width: 300px;
@@ -226,4 +219,10 @@ label {
     text-align: center;
     text-decoration: none;
     border-radius: 2px;
+}
+
+.portfoliosection {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
