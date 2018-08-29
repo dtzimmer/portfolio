@@ -38,7 +38,7 @@ class Portfolio extends Component {
             </div>
 
             <div>
-              <a href="https://newsamp.netlify.com/" target="blank"><img
+              <a href="https://samp.netlify.com/" target="blank"><img
                 src={SAMP}
                 alt="Smile At My Profile" className="imageportfolio" /></a>
               <p>Smile At My Profile</p>

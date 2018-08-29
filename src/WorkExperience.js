@@ -65,15 +65,14 @@ class WorkExperience extends Component {
                     <img
                       src="http://static1.squarespace.com/static/5812896dd482e97aca1ff170/t/591e175abe6594debd1a8ca5/1534808806708/"
                       alt="texas" width="100%" />
-                    <p>Moved to Houston, TX and taught 5th grade math/science at Kirk Elementary in
-                      CFISD</p>
+                    <p>Moved to Houston, TX and taught 5th grade math/science for 3 years</p>
                   </div>
                 </div>
                 <div className="col-sm-3">
                   <div>
                     <img src="https://hawthornacademy.org/assets/images/footer-logo.png" alt="hawthorn"
                          width="100%" />
-                    <p>Moved back to Sandy, UT and taught 4th grade at Hawthorn Academy</p>
+                    <p>Moved back to Sandy, UT and taught 4th grade at Hawthorn Academy for 1 year</p>
                   </div>
                 </div>
                 <div className="col-sm-3">
