@@ -26,8 +26,8 @@ class Header extends Component {
                         </div>
                     </div>
                     <div>
-                        <a href="www.linkedin.com/in/dtzimmer" ><i className="fa fa-linkedin"></i></a>
-                        <a href="https://github.com/dtzimmer" ><i className="fa fa-github"></i></a>
+                        <a href="https://linkedin.com/in/dtzimmer" target="blank" ><i className="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/dtzimmer" target="blank"><i className="fa fa-github"></i></a>
                     </div>
                 </nav>
             </Fragment>
