@@ -83,7 +83,7 @@ class Portfolio extends Component {
                     alt="Shopping Brain" />
                   <div className="carousel-caption d-block d-md-block caption-background">
                     <p className="caption-font">Technology Used: Node | React | Firebase </p>
-                    <a href="http://theclaw.netlify.com" target="blank">
+                    <a href="https://fun-food-friends-d09e7.firebaseapp.com/" target="blank">
                       <button className="caption-button">Live Site</button>
                     </a>
                   </div>
@@ -95,7 +95,7 @@ class Portfolio extends Component {
                       alt="Fetch" />
                   <div className="carousel-caption d-block d-md-block caption-background">
                     <p className="caption-font">Technology Used: Node | React | Express | MongoDB </p>
-                    <a href="http://theclaw.netlify.com" target="blank">
+                    <a href="https://fetch.netlify.com/" target="blank">
                       <button className="caption-button">Live Site</button>
                     </a>
                   </div>
