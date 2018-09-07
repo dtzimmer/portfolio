@@ -40,15 +40,9 @@ class HomePage extends Component {
             <a href="https://css-tricks.com/" target="blank"><img
               src="https://www.lifewire.com/thmb/zrcb1zA4Vi47uULJhJKJdcshBgk=/1024x1024/filters:fill(auto,1)/css3-57b597e85f9b58b5c2b338de.png"
               alt="CSS Logo" className="logoimages" /></a>
-            <a href="https://www.graphql.com/" target="blank"><img
-              src="http://jslancer.com/wp-content/uploads/2017/08/GraphQL-Apollo.jpg"
-              alt="GraphQL and Apollo Logo" className="logoimages" /></a>
             <a href="https://firebase.google.com/" target="blank"><img
               src="https://ih0.redbubble.net/image.489553250.2202/flat,550x550,075,f.jpg"
               alt="Firebase Logo" className="logoimages" /></a>
-            <a href="https://www.prisma.io/" target="blank"><img
-              src="https://cdn-images-1.medium.com/max/1200/1*oK0VF4K-Z1JsxsKytP54nA.png"
-              alt="Logo" className="logoimages" /></a>
             <a href="https://www.gitkraken.com/" target="blank"><img
               src="https://rlv.zcache.co.uk/gitkraken_stickers-r514220fb582c40a88e313a74d7660fe6_v9i40_8byvr_540.jpg"
               alt="Logo" className="logoimages" /></a>

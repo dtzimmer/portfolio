@@ -13,7 +13,7 @@ header {
 
 footer {
   background: whitesmoke;
-  padding: 10px;
+  padding: 4px;
   font-family: sans-serif;
   border-radius: 5px;
 }
@@ -40,17 +40,16 @@ h3 {
 }
 
 p {
-  padding: 10px;
   color: black;
   text-align: center;
-  font-size: 2vw;
+  font-size: 10px;
 }
 
 button {
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 3px 3px 5px grey;
   padding: 10px;
-  margin: 10px;
+  margin: 2px;
 }
 
 .image {
@@ -68,10 +67,37 @@ button {
 }
 
 .imageportfolio {
-  width: 30vw;
   height: auto;
-  margin: 2%;
-  box-shadow: 2px 2px 2px grey;
+  box-shadow: 2px 2px 2px black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.slideshowbackground {
+  background: #626262;
+}
+
+.caption-background {
+  background: black;
+  opacity: 0.7;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.caption-button {
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 2px;
+  font-size: 10px;
+}
+
+.caption-font {
+  color: white;
+  font-size: 10px;
 }
 
 .logoimages {
@@ -132,16 +158,6 @@ section {
   border-radius: 5px;
 }
 
-/*form {*/
-  /*width: 50%;*/
-  /*margin-right: auto;*/
-  /*margin-left: auto;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*align-content: space-between;*/
-/*}*/
-
 article {
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -163,50 +179,21 @@ article {
 .navbar a {
   float: left;
   display: block;
+  padding: 2px;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
-
-/*.nbmain {*/
-  /*height: auto;*/
-  /*width: 300px;*/
-  /*border: 3px solid black;*/
-  /*border-radius: 20px;*/
-  /*margin: 20px;*/
-  /*text-align: center;*/
-  /*background: white;*/
-/*}*/
-
-/*.nbsection {*/
-  /*text-align: center;*/
-  /*background: red;*/
-  /*border: 1px solid black;*/
-  /*color: white;*/
-  /*width: 260px;*/
-  /*height: auto;*/
-  /*margin-top: 20px;*/
-  /*margin-bottom: 20px;*/
-/*}*/
-
-/*.nbarticle {*/
-  /*text-align: center;*/
-  /*background: red;*/
-  /*color: white;*/
-  /*border: 1px solid black;*/
-  /*width: 300px;*/
-  /*height: auto;*/
-  /*border-radius: 20px;*/
-/*}*/
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  margin: 2px;
 }
 
 .fa-github {
   background: black;
   color: white;
+  margin: 2px;
 }
 
 .fa:hover {
