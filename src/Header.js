@@ -1,9 +1,6 @@
-import React, {Component, Fragment} from 'react'
+import React, {Component, Fragment} from 'react';
 import './App.css';
-import {Link} from 'react-router-dom'
-
-
-
+import {Link} from 'react-router-dom';
 
 class Header extends Component {
     render() {
@@ -18,10 +15,9 @@ class Header extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <Link to ="/"><a className="nav-item nav-link active">Home <span
-                                className="sr-only">(current)</span></a></Link>
-                            <Link to ="Portfolio"><a className="nav-item nav-link">Portfolio</a></Link>
-                            <Link to ="WorkExperience"><a className="nav-item nav-link">Work Experience</a></Link>
+                            <Link to ="/" className="nav-item nav-link">Home</Link>
+                            <Link to ="Portfolio"className="nav-item nav-link">Portfolio</Link>
+                            <Link to ="WorkExperience" className="nav-item nav-link">Work Experience</Link>
                         </div>
                     </div>
                     <div>

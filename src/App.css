@@ -1,5 +1,7 @@
+/*Main Website CSS*/
+
 body {
-  margin-top: 20vh;
+  margin-top: 15vh;
   background: #385a5a;
   background-size: cover;
 }
@@ -26,7 +28,7 @@ h1 {
 
 h2 {
   font-family: 'Cinzel', serif;
-  font-size: 3vw;
+  font-size: 20px;
   color: white;
   text-align: center;
 }
@@ -42,7 +44,16 @@ h3 {
 p {
   color: black;
   text-align: center;
-  font-size: 10px;
+  font-size: 16px;
+}
+
+li{
+  text-align: left;
+  font-size: 12px;
+}
+
+ul{
+  display: inline-block;
 }
 
 button {
@@ -52,100 +63,9 @@ button {
   margin: 2px;
 }
 
-.image {
-  width: 70%;
-  height: auto;
-  margin: 20px;
-  box-shadow: 5px 5px 5px grey;
-}
+/*Home Page Sections*/
 
-.imagehomepage {
-  width: 30vw;
-  height: auto;
-  margin: 2%;
-  box-shadow: 2px 2px 2px black;
-}
-
-.imageportfolio {
-  height: auto;
-  box-shadow: 2px 2px 2px black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-}
-
-.slideshowbackground {
-  background: #626262;
-}
-
-.caption-background {
-  background: black;
-  opacity: 0.7;
-  display: block;
-  margin: auto;
-  width: 50%;
-}
-
-.caption-button {
-  width: 50%;
-  border-radius: 5px;
-  box-shadow: none;
-  padding: 2px;
-  font-size: 10px;
-}
-
-.caption-font {
-  color: white;
-  font-size: 10px;
-}
-
-.logoimages {
-  background: black;
-  width: 150px;
-  height: auto;
-  margin: 15px;
-  box-shadow: 5px 5px 5px grey;
-}
-
-.imagewebpage {
-  width: 30vw;
-  height: auto;
-  box-shadow: 5px 5px 5px grey;
-}
-
-.resumeimages {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.skill-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-li, ul {
-  color: black;
-  text-align: left;
-}
-
-section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background: whitesmoke;
-  margin-right: 5vw;
-  margin-left: 5vw;
-  margin-bottom: 5vh;
-  border-radius: 5px;
-}
-
-.homepagessection {
+.skills-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -156,12 +76,6 @@ section {
   margin-left: 5vw;
   margin-bottom: 5vh;
   border-radius: 5px;
-}
-
-article {
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
 }
 
 .navbar {
@@ -209,8 +123,116 @@ article {
   border-radius: 2px;
 }
 
-.portfoliosection {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.imagehomepage {
+  width: 30vw;
+  height: auto;
+  margin: 2%;
+  box-shadow: 2px 2px 2px black;
 }
+
+.logoimages {
+  background: black;
+  width: 150px;
+  height: auto;
+  margin: 15px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+/*Slideshow Component*/
+
+.slideshowbackground {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+  border-radius: 2px;
+}
+
+.imageportfolio {
+  height: auto;
+  box-shadow: 2px 2px 2px black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.caption-background {
+  background: black;
+  opacity: 0.7;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.caption-button {
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 2px;
+  font-size: 10px;
+}
+
+/*Icon Portfolio Section*/
+
+.portfolioicon-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid-image {
+  width: 150px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.polaroid {
+  width: 70%;
+  min-width: 250px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/*Work History Sections*/
+
+.workhistory-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+  border-radius: 5px;
+}
+
+.resumeimages {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+

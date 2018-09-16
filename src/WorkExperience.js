@@ -7,14 +7,13 @@ class WorkExperience extends Component {
   render() {
     return (
       <Fragment>
-        <body>
           <Header />
 
           <header className="backgroundimagesections">
             <h1>Daniel Zimmerman</h1>
             <h2>Education and Work Experience</h2>
           </header>
-          <section>
+          <section className="workhistory-section">
             <div className="container">
               <div className="row">
                 <div className="col">
@@ -38,9 +37,9 @@ class WorkExperience extends Component {
               </div>
             </div>
           </section>
-          <section>
+          <section className="workhistory-section">
             <div>
-              <a href="https://drive.google.com/file/d/1ICR74lzAsfd5ODmwsoDDDusCDFX5PJo_/view?usp=sharing"
+              <a href="https://drive.google.com/file/d/1PumvBjIAxutSaBwB80Ch-ZpBE8wzjQ73/view?usp=sharing"
                  target="blank">
                 <button>Download My Resume</button>
               </a>
@@ -49,7 +48,7 @@ class WorkExperience extends Component {
           <header className="backgroundimagesections">
             <h2>Work History</h2>
           </header>
-          <section>
+          <section className="workhistory-section">
             <div className="container">
               <div className="row">
                 <div className="col-sm-3">
@@ -88,7 +87,6 @@ class WorkExperience extends Component {
             </div>
           </section>
           <Footer />
-        </body>
       </Fragment>
     )
   }

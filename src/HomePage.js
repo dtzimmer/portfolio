@@ -8,9 +8,6 @@ class HomePage extends Component {
   render() {
     return (
       <Fragment>
-
-        <body className="backgroundimagesections">
-
           <Header />
 
 
@@ -27,7 +24,7 @@ class HomePage extends Component {
           <div>
             <h2>Current Skills</h2>
           </div>
-          <div className="homepagessection">
+          <div className="skills-section">
             <a href="https://reactjs.org/" target="blank"><img
               src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png"
               alt="React Logo" className="logoimages" /></a>
@@ -55,9 +52,6 @@ class HomePage extends Component {
           </div>
 
           <Footer />
-
-        </body>
-
       </Fragment>
     )
   }
