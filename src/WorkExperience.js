@@ -8,11 +8,7 @@ class WorkExperience extends Component {
     return (
       <Fragment>
           <Header />
-
-          <header className="backgroundimagesections">
-            <h1>Daniel Zimmerman</h1>
             <h2>Education and Work Experience</h2>
-          </header>
           <section className="workhistory-section">
             <div className="container">
               <div className="row">
@@ -41,7 +37,7 @@ class WorkExperience extends Component {
             <div>
               <a href="https://drive.google.com/file/d/1PumvBjIAxutSaBwB80Ch-ZpBE8wzjQ73/view?usp=sharing"
                  target="blank">
-                <button>Download My Resume</button>
+                <button className="resume-button">Download My Resume</button>
               </a>
             </div>
           </section>

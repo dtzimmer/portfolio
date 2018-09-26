@@ -14,12 +14,7 @@ class Portfolio extends Component {
       <Fragment>
         <div>
           <Header />
-
-          <header className="backgroundimagesections">
-            <h1>Daniel Zimmerman</h1>
             <h2>Portfolio</h2>
-          </header>
-
           <section className="slideshowbackground">
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
               <ol className="carousel-indicators">

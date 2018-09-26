@@ -6,24 +6,26 @@ body {
   background-size: cover;
 }
 
-header {
+.self-portrait {
   text-align: center;
   margin-top: 3vh;
   margin-right: 10vw;
   margin-left: 10vw;
 }
 
-footer {
-  background: whitesmoke;
-  padding: 4px;
-  font-family: sans-serif;
-  border-radius: 5px;
+.footer-styling {
+  background: white;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 h1 {
   font-family: 'Cinzel', serif;
-  font-size: 5vw;
+  font-size: 7vw;
   color: white;
+  text-align: center;
 }
 
 h2 {
@@ -35,7 +37,7 @@ h2 {
 
 h3 {
   font-family: 'Cinzel', serif;
-  font-size: 2.5vw;
+  font-size: 16px;
   padding: 10px;
   color: black;
   text-align: center;
@@ -60,7 +62,44 @@ button {
   border-radius: 5px;
   box-shadow: 3px 3px 5px grey;
   padding: 10px;
-  margin: 2px;
+  margin: 10px auto;
+  width: 25%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  z-index: 99999;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  box-shadow: 4px 4px 5px black;
+}
+
+.header-logo {
+  width: 50px;
+  margin-right: 5%;
+}
+
+.header-icons {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-text {
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 10px;
+  color: grey;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*Home Page Sections*/
@@ -76,18 +115,6 @@ button {
   margin-left: 5vw;
   margin-bottom: 5vh;
   border-radius: 5px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: left;
-  z-index: 99999;
-  overflow: hidden;
-  border-radius: 5px;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  box-shadow: 4px 4px 5px black;
 }
 
 .navbar a {
@@ -236,3 +263,10 @@ div.container {
   width: 50%;
 }
 
+.resume-button {
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px grey;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+}
