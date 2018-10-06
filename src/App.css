@@ -3,7 +3,7 @@
 body {
   margin-top: 15vh;
   background: #385a5a;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .self-portrait {
@@ -15,10 +15,7 @@ body {
 
 .footer-styling {
   background: white;
-  padding: 2px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  padding: 20px;
 }
 
 h1 {
@@ -185,7 +182,7 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 75% !important;
 }
 
 .caption-background {
@@ -243,8 +240,9 @@ div.container {
 
 /*Work History Sections*/
 
-.workhistory-section {
-  display: flex;
+.resume-section{
+    display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
@@ -256,6 +254,20 @@ div.container {
   border-radius: 5px;
 }
 
+.workhistory-section {
+  align-items: center;
+  padding: 10px;
+  background: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5vh;
+}
+
+.workhistory-card {
+  align-items: center;
+  background: white;
+  margin-bottom: 20px;
+}
+
 .resumeimages {
   display: block;
   margin-left: auto;
@@ -263,10 +275,66 @@ div.container {
   width: 50%;
 }
 
+
 .resume-button {
   border-radius: 5px;
   box-shadow: 3px 3px 5px grey;
   padding: 10px;
   margin: 10px auto;
   width: 100%;
+}
+
+.workhistory-img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+.slide {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  min-width: 250px;
+
+}
+
+.slide img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 250px;
+}
+
+.slide-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-width: 250px;
+
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: white;
+  opacity: 0.9;
+  padding: 20px;
+  color: black;
+  box-sizing: border-box;
+  transition: transform 0.7s ease;
+}
+
+.slide:hover .slide-content {
+  transform: translate(0, 0);
+}
+
+.slide-top .slide-content{
+  transform: translate(0, -100%)
 }
