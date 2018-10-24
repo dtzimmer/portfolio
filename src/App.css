@@ -1,7 +1,7 @@
 /*Main Website CSS*/
 
 body {
-  margin-top: 15vh;
+  margin-top: 20vh;
   background: #385a5a;
   /* background-size: cover; */
 }
@@ -19,22 +19,36 @@ body {
 }
 
 h1 {
-  font-family: 'Cinzel', serif;
-  font-size: 7vw;
+  font-family: "Cinzel", serif;
+  font-size: 50px;
   color: white;
   text-align: center;
 }
 
+@media (max-width: 500px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
 h2 {
-  font-family: 'Cinzel', serif;
-  font-size: 20px;
+  font-family: "Cinzel", serif;
+  font-size: 24px;
   color: white;
   text-align: center;
 }
 
 h3 {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-size: 16px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Cinzel", serif;
+  font-size: 24px;
   padding: 10px;
   color: black;
   text-align: center;
@@ -46,12 +60,12 @@ p {
   font-size: 16px;
 }
 
-li{
+li {
   text-align: left;
   font-size: 12px;
 }
 
-ul{
+ul {
   display: inline-block;
 }
 
@@ -96,7 +110,7 @@ button {
   margin-bottom: auto;
   font-size: 10px;
   color: grey;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*Home Page Sections*/
@@ -104,6 +118,19 @@ button {
 .skills-section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: whitesmoke;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+  border-radius: 5px;
+}
+
+.codewars-section {
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -148,10 +175,17 @@ button {
 }
 
 .imagehomepage {
-  width: 30vw;
+  width: 50%;
   height: auto;
   margin: 2%;
   box-shadow: 2px 2px 2px black;
+}
+
+.codewars-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .logoimages {
@@ -240,8 +274,8 @@ div.container {
 
 /*Work History Sections*/
 
-.resume-section{
-    display: flex;
+.resume-section {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -275,7 +309,6 @@ div.container {
   width: 50%;
 }
 
-
 .resume-button {
   border-radius: 5px;
   box-shadow: 3px 3px 5px grey;
@@ -290,7 +323,6 @@ div.container {
   margin-left: auto;
   margin-top: 10%;
   margin-bottom: 10%;
-
 }
 
 .slide {
@@ -298,10 +330,9 @@ div.container {
   display: inline-block;
   overflow: hidden;
   min-width: 250px;
-
 }
 
-.slide img{
+.slide img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -309,7 +340,7 @@ div.container {
   min-width: 250px;
 }
 
-.slide-content{
+.slide-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -335,6 +366,6 @@ div.container {
   transform: translate(0, 0);
 }
 
-.slide-top .slide-content{
-  transform: translate(0, -100%)
+.slide-top .slide-content {
+  transform: translate(0, -100%);
 }
