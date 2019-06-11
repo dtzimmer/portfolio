@@ -73,7 +73,7 @@ class WorkExperience extends Component {
                     </h3>
                   </div>
                   <img
-                    src="https://www.byu.edu/oncampushousing/images/Helaman_birds_eye.jpg"
+                    src="https://cdn-images-1.medium.com/max/2400/1*yktz1koGsQ1kV02GnF5K1A.png"
                     alt="BYU"
                     className="slide-img"
                   />
