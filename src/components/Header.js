@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from "react";
-import "./App.css";
 import { Link } from "react-router-dom";
-import Logo from "./DZ Web Design.jpg";
+
+import Logo from "../images/DZ Web Design.jpg";
+
+import "./index.css";
 
 class Header extends Component {
   render() {

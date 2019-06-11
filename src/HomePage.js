@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import "./App.css";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 class HomePage extends Component {
   render() {
@@ -25,7 +25,7 @@ class HomePage extends Component {
         <div className="skills-section">
           <a href="https://reactjs.org/" target="blank">
             <img
-              src="https://mildaintrainings.com/wp-content/uploads/2017/11/react-logo.png"
+              src="https://coder.clothing/images/stories/virtuemart/product/reactjs-logo-sticker.jpg"
               alt="React Logo"
               className="logoimages"
             />
@@ -35,14 +35,14 @@ class HomePage extends Component {
             target="blank"
           >
             <img
-              src="https://appendto.com/wp-content/uploads/2016/05/javascript-e1477353149155.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
               alt="JS Logo"
               className="logoimages"
             />
           </a>
           <a href="https://nodejs.org/en/" target="blank">
             <img
-              src="https://cdn-images-1.medium.com/max/2000/1*q9ww_u32hhpMaA-Q_s1ujw.png"
+              src="https://software.intel.com/sites/default/files/managed/fa/a0/Runtime-logo-Node.jpg"
               alt="NodeJS Logo"
               className="logoimages"
             />
@@ -61,16 +61,9 @@ class HomePage extends Component {
               className="logoimages"
             />
           </a>
-          <a href="https://www.gitkraken.com/" target="blank">
-            <img
-              src="https://rlv.zcache.co.uk/gitkraken_stickers-r514220fb582c40a88e313a74d7660fe6_v9i40_8byvr_540.jpg"
-              alt="Logo"
-              className="logoimages"
-            />
-          </a>
           <a href="https://github.com/" target="blank">
             <img
-              src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
               alt="Git Hub Logo"
               className="logoimages"
             />
@@ -79,6 +72,13 @@ class HomePage extends Component {
             <img
               src="https://cacm.acm.org/system/assets/0002/7119/042117_Theodo_MongoDB.large.jpg?1492791427&1492791427"
               alt="MongoDB Logo"
+              className="logoimages"
+            />
+          </a>
+          <a href="https://www.postgresql.org/" target="blank">
+            <img
+              src="http://www.invetics.co.uk/wp-content/uploads/2014/11/1229967231.gif"
+              alt="Postgres Logo"
               className="logoimages"
             />
           </a>

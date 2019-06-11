@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from "react";
 import "./App.css";
-import Helio from "./HelioGrad.jpg";
-import Hawthorn from "./Hawthorn.jpg";
-import Header from "./Header";
-import Footer from "./Footer";
+import Helio from "./images/HelioGrad.jpg";
+import Hawthorn from "./images/Hawthorn.jpg";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 class WorkExperience extends Component {
   render() {
