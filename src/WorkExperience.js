@@ -154,6 +154,33 @@ class WorkExperience extends Component {
               </div>
             </div>
           </div>
+
+          <div className="workhistory-card">
+            <div className="row">
+              <div className="col-sm-4">
+                <img
+                  src="https://d1zx4fn8ox8446.cloudfront.net/filemanager.rboxfile/d5ec7a79ea89427fa4420f6a924c3619/Logo_stacked_against_blue.png"
+                  alt="BrightBytes Logo"
+                  className="workhistory-img"
+                />
+              </div>
+              <div className="col-sm-8">
+                <div className="slide slide-top col">
+                  <div className="slide-content">
+                    <h3>
+                      Working as a Jr. Full Stack Engineer at BrightBytes to
+                      "Improve the Way the World Learns".
+                    </h3>
+                  </div>
+                  <img
+                    src="https://techcrunch.com/wp-content/uploads/2013/02/screen-shot-2013-02-19-at-5-39-43-pm.png?w=730&crop=1"
+                    alt="BrightBytes Advertisement"
+                    className="slide-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <Footer />
       </Fragment>
