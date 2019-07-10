@@ -38,3 +38,27 @@
   color: grey;
   font-family: "Raleway", sans-serif;
 }
+
+.imagehomepage {
+  width: 200px;
+  height: auto;
+  margin-right: 50px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.subheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .subheader {
+    flex-direction: column;
+  }
+  .imagehomepage {
+    margin-bottom: 50px;
+  }
+}

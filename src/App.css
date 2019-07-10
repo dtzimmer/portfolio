@@ -2,15 +2,7 @@
 
 body {
   margin-top: 20vh;
-  background: #385a5a;
-  /* background-size: cover; */
-}
-
-.self-portrait {
-  text-align: center;
-  margin-top: 3vh;
-  margin-right: 10vw;
-  margin-left: 10vw;
+  background: lightslategray;
 }
 
 h1 {
@@ -131,13 +123,6 @@ button {
   text-align: center;
   text-decoration: none;
   border-radius: 2px;
-}
-
-.imagehomepage {
-  width: 50%;
-  height: auto;
-  margin: 2%;
-  box-shadow: 2px 2px 2px black;
 }
 
 .codewars-icon {
