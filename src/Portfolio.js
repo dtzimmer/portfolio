@@ -7,6 +7,7 @@ import ShoppingBrain from "./images/Shopping.jpg";
 import Fetch from "./images/Fetch.jpg";
 import Vidly from "./images/Vidly.jpg";
 import THECLAW from "./images/The CLAW.jpg";
+import Insight from "./images/Insight-large.jpg";
 
 import "./App.css";
 
@@ -95,6 +96,21 @@ class Portfolio extends Component {
                   />
                   <div className="carousel-caption d-block d-md-block caption-background">
                     <a href="http://theclaw.netlify.com" target="blank">
+                      <button className="caption-button">Live Site</button>
+                    </a>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img
+                    className="imageportfolio"
+                    src={Insight}
+                    alt="Insight Logo"
+                  />
+                  <div className="carousel-caption d-block d-md-block caption-background">
+                    <a
+                      href="http://insightsolutionssoftware.com/"
+                      target="blank"
+                    >
                       <button className="caption-button">Live Site</button>
                     </a>
                   </div>
@@ -228,6 +244,23 @@ class Portfolio extends Component {
                   <li>
                     Utilizes the raising and handling events in the components
                   </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <div className="polaroid">
+              <img
+                src={Insight}
+                alt="Insight Logo"
+                className="polaroid-image"
+              />
+              <div className="container">
+                <b>Insight Solutions Software</b>
+                <p> React </p>
+                <ul>
+                  <li>Graphic Design</li>
+                  <li>Clean, simple UI/UX design</li>
+                  <li>Third-party contact form integration</li>
                 </ul>
               </div>
             </div>
